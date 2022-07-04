@@ -1,0 +1,2166 @@
+,Fault Code,Device #,Wire #,"Custom
+Text",Fault Text,Extended Description,PLC Tag,HMI Display,HMI,,,"Fault Tested
+Initials & Date"
+,,,,,,,,,Trigger,Trigger Value,,
+General ,F000,,,,"PLC Major Fault
+All operations have stopped","The PLC has encountered a major error and halted all operations.
+Any errors must be resolved prior to resetting the PLC. ",HMI_PLC_Major_Fault,"F000   PLC Major Fault
+All operations have stopped",HMI_PLC_Major_Fault,1,,
+"Calibration
+
+Calibration Mechanics",,,,,,,,,,,,
+,F001,H14-1,8337,,"Calibration Arm 1
+Should Not Be Lowered.","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check if product guides are lowered and are in place. Next, check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.Off_Flt.0,"F001   Calibration Arm 1
+Should Not Be Lowered.
+Device H14-1     Wire # 8337",Calibration.Input.Off_Flt,1,,
+,F002,H14-2,8347,,"Calibration Arm 1
+Should Not Be Raised.","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.Off_Flt.1,"F002   Calibration Arm 1
+Should Not Be Raised.
+Device H14-2     Wire # 8347",Calibration.Input.Off_Flt,2,,
+,F003,H14-5,8377,,"Calibration Arm 2
+Should Not Be Lowered.","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check if product guides are lowered and are in place. Next, check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.Off_Flt.2,"F003   Calibration Arm 2
+Should Not Be Lowered.
+Device H14-5     Wire # 8377",Calibration.Input.Off_Flt,3,,
+,F004,H14-6,8387,,"Calibration Arm 2
+Should Not Be Raised.","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.Off_Flt.3,"F004   Calibration Arm 2
+Should Not Be Raised.
+Device H14-6     Wire # 8387",Calibration.Input.Off_Flt,4,,
+,F005,,,,"Calibration Failed
+Maximum Retries Reached","Control Computer indicated the calibration failed. The system attempted to retry the calibration upto a maximum amount of attempts. If the fault persists, contact PPO for assistance.",Calibration.Input.Off_Flt.4,"F005   Calibration Failed
+Maximum Retries Reached",Calibration.Input.Off_Flt,5,,
+,F006,,,,"Calibration Too Old
+A New Calibration Is Required In Order To Scan Product",The last calibration is over 20 hrs old. Perform a new calibration in order to scan product.,Calibration.Input.Off_Flt.5,"F006   Calibration Too Old
+A New Calibration Is Required In Order To Scan Product",Calibration.Input.Off_Flt,6,,
+,F007,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.6",,Calibration.Input.Off_Flt.6,"F007   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.6",Calibration.Input.Off_Flt,7,,
+,F008,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.7",,Calibration.Input.Off_Flt.7,"F008   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.7",Calibration.Input.Off_Flt,8,,
+,F009,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.8",,Calibration.Input.Off_Flt.8,"F009   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.8",Calibration.Input.Off_Flt,9,,
+,F010,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.9",,Calibration.Input.Off_Flt.9,"F010   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.9",Calibration.Input.Off_Flt,10,,
+,F011,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.10",,Calibration.Input.Off_Flt.10,"F011   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.10",Calibration.Input.Off_Flt,11,,
+,F012,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.11",,Calibration.Input.Off_Flt.11,"F012   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.11",Calibration.Input.Off_Flt,12,,
+,F013,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.12",,Calibration.Input.Off_Flt.12,"F013   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.12",Calibration.Input.Off_Flt,13,,
+,F014,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.13",,Calibration.Input.Off_Flt.13,"F014   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.13",Calibration.Input.Off_Flt,14,,
+,F015,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.14",,Calibration.Input.Off_Flt.14,"F015   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.14",Calibration.Input.Off_Flt,15,,
+,F016,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.15",,Calibration.Input.Off_Flt.15,"F016   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.15",Calibration.Input.Off_Flt,16,,
+,F017,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.16",,Calibration.Input.Off_Flt.16,"F017   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.16",Calibration.Input.Off_Flt,17,,
+,F018,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.17",,Calibration.Input.Off_Flt.17,"F018   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.17",Calibration.Input.Off_Flt,18,,
+,F019,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.18",,Calibration.Input.Off_Flt.18,"F019   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.18",Calibration.Input.Off_Flt,19,,
+,F020,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.19",,Calibration.Input.Off_Flt.19,"F020   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.19",Calibration.Input.Off_Flt,20,,
+,F021,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.20",,Calibration.Input.Off_Flt.20,"F021   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.20",Calibration.Input.Off_Flt,21,,
+,F022,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.21",,Calibration.Input.Off_Flt.21,"F022   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.21",Calibration.Input.Off_Flt,22,,
+,F023,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.22",,Calibration.Input.Off_Flt.22,"F023   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.22",Calibration.Input.Off_Flt,23,,
+,F024,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.23",,Calibration.Input.Off_Flt.23,"F024   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.23",Calibration.Input.Off_Flt,24,,
+,F025,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.24",,Calibration.Input.Off_Flt.24,"F025   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.24",Calibration.Input.Off_Flt,25,,
+,F026,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.25",,Calibration.Input.Off_Flt.25,"F026   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.25",Calibration.Input.Off_Flt,26,,
+,F027,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.26",,Calibration.Input.Off_Flt.26,"F027   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.26",Calibration.Input.Off_Flt,27,,
+,F028,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.27",,Calibration.Input.Off_Flt.27,"F028   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.27",Calibration.Input.Off_Flt,28,,
+,F029,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.28",,Calibration.Input.Off_Flt.28,"F029   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.28",Calibration.Input.Off_Flt,29,,
+,F030,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.29",,Calibration.Input.Off_Flt.29,"F030   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.29",Calibration.Input.Off_Flt,30,,
+,F031,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.30",,Calibration.Input.Off_Flt.30,"F031   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.30",Calibration.Input.Off_Flt,31,,
+,F032,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.31",,Calibration.Input.Off_Flt.31,"F032   Spare Fault Message
+PLC Tag: Calibration.Input.Off_Flt.31",Calibration.Input.Off_Flt,32,,
+,F033,H14-1,8337,,"Calibration Arm 1 Should Be Lowered.
+Check Cylinder Sensor and 
+Check Product Guides Are Lowered.","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.On_Flt.0,"F033   Calibration Arm 1 Should Be Lowered.
+Check Cylinder Sensor and 
+Check Product Guides Are Lowered.
+Device H14-1     Wire # 8337",Calibration.Input.On_Flt,1,,
+,F034,H14-2,8347,,"Calibration Arm 1
+Should Be Raised","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.On_Flt.1,"F034   Calibration Arm 1
+Should Be Raised
+Device H14-2     Wire # 8347",Calibration.Input.On_Flt,2,,
+,F035,H14-5,8377,,"Calibration Arm 2 Should Be Lowered.
+Check Cylinder Sensor and 
+Check Product Guides Are Lowered.","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.On_Flt.2,"F035   Calibration Arm 2 Should Be Lowered.
+Check Cylinder Sensor and 
+Check Product Guides Are Lowered.
+Device H14-5     Wire # 8377",Calibration.Input.On_Flt,3,,
+,F036,H14-6,8387,,"Calibration Arm 2
+Should Be Raised","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Calibration.Input.On_Flt.3,"F036   Calibration Arm 2
+Should Be Raised
+Device H14-6     Wire # 8387",Calibration.Input.On_Flt,4,,
+,F037,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.4",,Calibration.Input.On_Flt.4,"F037   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.4",Calibration.Input.On_Flt,5,,
+,F038,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.5",,Calibration.Input.On_Flt.5,"F038   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.5",Calibration.Input.On_Flt,6,,
+,F039,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.6",,Calibration.Input.On_Flt.6,"F039   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.6",Calibration.Input.On_Flt,7,,
+,F040,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.7",,Calibration.Input.On_Flt.7,"F040   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.7",Calibration.Input.On_Flt,8,,
+,F041,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.8",,Calibration.Input.On_Flt.8,"F041   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.8",Calibration.Input.On_Flt,9,,
+,F042,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.9",,Calibration.Input.On_Flt.9,"F042   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.9",Calibration.Input.On_Flt,10,,
+,F043,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.10",,Calibration.Input.On_Flt.10,"F043   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.10",Calibration.Input.On_Flt,11,,
+,F044,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.11",,Calibration.Input.On_Flt.11,"F044   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.11",Calibration.Input.On_Flt,12,,
+,F045,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.12",,Calibration.Input.On_Flt.12,"F045   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.12",Calibration.Input.On_Flt,13,,
+,F046,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.13",,Calibration.Input.On_Flt.13,"F046   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.13",Calibration.Input.On_Flt,14,,
+,F047,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.14",,Calibration.Input.On_Flt.14,"F047   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.14",Calibration.Input.On_Flt,15,,
+,F048,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.15",,Calibration.Input.On_Flt.15,"F048   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.15",Calibration.Input.On_Flt,16,,
+,F049,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.16",,Calibration.Input.On_Flt.16,"F049   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.16",Calibration.Input.On_Flt,17,,
+,F050,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.17",,Calibration.Input.On_Flt.17,"F050   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.17",Calibration.Input.On_Flt,18,,
+,F051,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.18",,Calibration.Input.On_Flt.18,"F051   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.18",Calibration.Input.On_Flt,19,,
+,F052,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.19",,Calibration.Input.On_Flt.19,"F052   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.19",Calibration.Input.On_Flt,20,,
+,F053,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.20",,Calibration.Input.On_Flt.20,"F053   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.20",Calibration.Input.On_Flt,21,,
+,F054,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.21",,Calibration.Input.On_Flt.21,"F054   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.21",Calibration.Input.On_Flt,22,,
+,F055,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.22",,Calibration.Input.On_Flt.22,"F055   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.22",Calibration.Input.On_Flt,23,,
+,F056,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.23",,Calibration.Input.On_Flt.23,"F056   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.23",Calibration.Input.On_Flt,24,,
+,F057,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.24",,Calibration.Input.On_Flt.24,"F057   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.24",Calibration.Input.On_Flt,25,,
+,F058,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.25",,Calibration.Input.On_Flt.25,"F058   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.25",Calibration.Input.On_Flt,26,,
+,F059,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.26",,Calibration.Input.On_Flt.26,"F059   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.26",Calibration.Input.On_Flt,27,,
+,F060,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.27",,Calibration.Input.On_Flt.27,"F060   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.27",Calibration.Input.On_Flt,28,,
+,F061,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.28",,Calibration.Input.On_Flt.28,"F061   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.28",Calibration.Input.On_Flt,29,,
+,F062,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.29",,Calibration.Input.On_Flt.29,"F062   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.29",Calibration.Input.On_Flt,30,,
+,F063,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.30",,Calibration.Input.On_Flt.30,"F063   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.30",Calibration.Input.On_Flt,31,,
+,F064,,,,"Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.31",,Calibration.Input.On_Flt.31,"F064   Spare Fault Message
+PLC Tag: Calibration.Input.On_Flt.31",Calibration.Input.On_Flt,32,,
+"Imaging
+
+(Computers)",,,,,,,,,,,,
+,F065,U1,,IP Address: 10.0.1.18,"Control Computer
+Communication Error - No Heartbeat",The heartbeat between the PLC and the control computer has not changed within a specified amount of time.,Imaging.Input.Off_Flt.0,"F065   Control Computer
+Communication Error - No Heartbeat
+Device U1     IP Address: 10.0.1.18",Imaging.Input.Off_Flt,1,,
+,F066,U1,,IP Address: 10.0.1.18,"Control Computer
+Failed To Start Task",The Control Computer has not acknowledged the PLC's task request within a specified amount of time. Check if the Control Computer is operating properly,Imaging.Input.Off_Flt.1,"F066   Control Computer
+Failed To Start Task
+Device U1     IP Address: 10.0.1.18",Imaging.Input.Off_Flt,2,,
+,F067,U1,,IP Address: 10.0.1.18,"Control Computer
+Task Timed Out",The Control Computer has not completed its task within a specified amount of time.,Imaging.Input.Off_Flt.2,"F067   Control Computer
+Task Timed Out
+Device U1     IP Address: 10.0.1.18",Imaging.Input.Off_Flt,3,,
+,F068,U1,,IP Address: 10.0.1.18,"Control Computer
+Task Aborted",The PLC has aborted the Control Computer Task,Imaging.Input.Off_Flt.3,"F068   Control Computer
+Task Aborted
+Device U1     IP Address: 10.0.1.18",Imaging.Input.Off_Flt,4,,
+,F069,U1,,IP Address: 10.0.1.18,"Control Computer
+Task Error
+Error Code: /*N:10 {[PLC]C_TASK} NOFILL DP:0*/",The Control Computer reported and error when attempting to execute a task.,Imaging.Input.Off_Flt.4,"F069   Control Computer
+Task Error
+Error Code: /*N:10 {[PLC]C_TASK} NOFILL DP:0*/
+Device U1     IP Address: 10.0.1.18",Imaging.Input.Off_Flt,5,,
+,F070,U2-1,,IP Address: 10.0.1.19,"DM 1 (Top)
+Classification Timestamp Not Updating","DM 1 classification software has not sent the PLC a timestamp/heartbeat within a specified amount of time. Check Spec 1 and Vis 1 computers are running the classification software and that it's PLC tracking time is synchronized with the PLC.
+Restarting the computers may solve the issue.",Imaging.Input.Off_Flt.5,"F070   DM 1 (Top)
+Classification Timestamp Not Updating
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,6,,
+,F071,U2-1,,IP Address: 10.0.1.19,"DM 1 (Top)
+Classification Timestamp Offset Error","DM 1 classification timestamp is out of range by more than a specified amount. Execute a calibration to re-synchronize the computer's clock with the PLC and Control Computer. If the issue persists, contact the PPO service team.",Imaging.Input.Off_Flt.6,"F071   DM 1 (Top)
+Classification Timestamp Offset Error
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,7,,
+,F072,U2-1,,IP Address: 10.0.1.19,"Spec 1 (Top)
+Too Many Consecutive Reject Message Errors",Spec 1 Computer has sent several invalid reject messages to the PLC. Contact the PPO Service team for assistance.,Imaging.Input.Off_Flt.7,"F072   Spec 1 (Top)
+Too Many Consecutive Reject Message Errors
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,8,,
+,F073,U2-1,,IP Address: 10.0.1.19,"Spec 1 (Top)
+Calibration Failure
+Error Code: /*N:10 {[PLC]C_FAULT_SPEC_1} NOFILL DP:0*/","Spec 1 Computer has detected one of the following errors during calibration. The system has attempted to calibrate multiple times and the issue persists.
+Reason codes (bitwise):
+Bit 0 - Brightness level too low. This may indicate the lamps need to be changed.
+Bit 1 - Bright/Dark levels are too close to each other. This may indicate the shutter is failing.
+Bit 2 - Too many dark underflowing lines during the darkness calibration.
+Bit 3 - Dark level is higher than the bright level. This may indicate that the shutter position has been swapped.",Imaging.Input.Off_Flt.8,"F073   Spec 1 (Top)
+Calibration Failure
+Error Code: /*N:10 {[PLC]C_FAULT_SPEC_1} NOFILL DP:0*/
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,9,,
+,F074,U2-1,,IP Address: 10.0.1.19,"Spec 1 Computer
+NTP Time Synchronization Error","Spec 1 Computer's NTP clock is not synchronized with the NTP clock on the Control Computer. Perform a calibration.
+This issue has been detected by the Spec 1 Computer.
+If the issue persists after a calibration:
+-Shutdown and restart all computers
+-Contact PPO's team for assistance.",Imaging.Input.Off_Flt.9,"F074   Spec 1 Computer
+NTP Time Synchronization Error
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,10,,
+,F075,U2-1,,IP Address: 10.0.1.19,"Vis 1 Computer
+NTP Time Synchronization Error","Vis 1 Computer's NTP clock is not synchronized with the NTP clock on the Control Computer. Perform a calibration.
+This issue has been detected by the Vis 1 Computer.
+If the issue persists after a calibration:
+-Shutdown and restart all computers
+-Contact PPO's team for assistance.",Imaging.Input.Off_Flt.10,"F075   Vis 1 Computer
+NTP Time Synchronization Error
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,11,,
+,F076,U2-2,,IP Address: 10.0.1.21,"DM 2 (Middle)
+Classification Timestamp Not Updating","DM 2 classification software has not sent the PLC a timestamp/heartbeat within a specified amount of time. Check Spec 2 and Vis 2 computers are running the classification software and that it's PLC tracking time is synchronized with the PLC.
+Restarting the computers may solve the issue.",Imaging.Input.Off_Flt.11,"F076   DM 2 (Middle)
+Classification Timestamp Not Updating
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,12,,
+,F077,U2-2,,IP Address: 10.0.1.21,"DM 2 (Middle)
+Classification Timestamp Offset Error","DM 1 classification timestamp is out of range by more than a specified amount. Execute a calibration to re-synchronize the computer's clock with the PLC and Control Computer. If the issue persists, contact the PPO service team.",Imaging.Input.Off_Flt.12,"F077   DM 2 (Middle)
+Classification Timestamp Offset Error
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,13,,
+,F078,U2-2,,IP Address: 10.0.1.21,"Spec 2 (Middle)
+Too Many Consecutive Reject Message Errors",Spec 2 Computer has sent several invalid reject messages to the PLC. Contact the PPO Service team for assistance.,Imaging.Input.Off_Flt.13,"F078   Spec 2 (Middle)
+Too Many Consecutive Reject Message Errors
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,14,,
+,F079,U2-2,,IP Address: 10.0.1.21,"Spec 2 (Middle)
+Calibration Failure
+Error Code: /*N:10 {[PLC]C_FAULT_SPEC_2} NOFILL DP:0*/","Spec 2 Computer has detected one of the following errors during calibration. The system has attempted to calibrate multiple times and the issue persists.
+Reason codes (bitwise):
+Bit 0 - Brightness level too low. This may indicate the lamps need to be changed.
+Bit 1 - Bright/Dark levels are too close to each other. This may indicate the shutter is failing.
+Bit 2 - Too many dark underflowing lines during the darkness calibration.
+Bit 3 - Dark level is higher than the bright level. This may indicate that the shutter position has been swapped.",Imaging.Input.Off_Flt.14,"F079   Spec 2 (Middle)
+Calibration Failure
+Error Code: /*N:10 {[PLC]C_FAULT_SPEC_2} NOFILL DP:0*/
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,15,,
+,F080,U2-2,,IP Address: 10.0.1.21,"Spec 2 Computer
+NTP Time Synchronization Error","Spec 2 Computer's NTP clock is not synchronized with the NTP clock on the Control Computer. Perform a calibration.
+This issue has been detected by the Spec 2 Computer.
+If the issue persists after a calibration:
+-Shutdown and restart all computers
+-Contact PPO's team for assistance.",Imaging.Input.Off_Flt.15,"F080   Spec 2 Computer
+NTP Time Synchronization Error
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,16,,
+,F081,U2-2,,IP Address: 10.0.1.21,"Vis 2 Computer
+NTP Time Synchronization Error","Vis 2 Computer's NTP clock is not synchronized with the NTP clock on the Computer Computer. Perform a calibration.
+This issue has been detected by the Vis 2 Computer.
+If the issue persists after a calibration:
+-Shutdown and restart all computers
+-Contact PPO's team for assistance.",Imaging.Input.Off_Flt.16,"F081   Vis 2 Computer
+NTP Time Synchronization Error
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,17,,
+,F082,U2-1,,IP Address: 10.0.1.19,"DM1 Calibration Failed.
+Window or Calibration Target Not Clean","DM1 calibration has failed.
+Clean the DM1 window and calibration target.
+After cleaning, perform calibration again.
+If issue persists, contact PPO's team for assistance.",Imaging.Input.Off_Flt.17,"F082   DM1 Calibration Failed.
+Window or Calibration Target Not Clean
+Device U2-1     IP Address: 10.0.1.19",Imaging.Input.Off_Flt,18,,
+,F083,U2-2,,IP Address: 10.0.1.21,"DM2 Calibration Failed.
+Window or Calibration Target Not Clean","DM2 calibration has failed.
+Clean the DM2 window and calibration target.
+After cleaning, perform calibration again.
+If issue persists, contact PPO's team for assistance.",Imaging.Input.Off_Flt.18,"F083   DM2 Calibration Failed.
+Window or Calibration Target Not Clean
+Device U2-2     IP Address: 10.0.1.21",Imaging.Input.Off_Flt,19,,
+,F084,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.19",,Imaging.Input.Off_Flt.19,"F084   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.19",Imaging.Input.Off_Flt,20,,
+,F085,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.20",,Imaging.Input.Off_Flt.20,"F085   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.20",Imaging.Input.Off_Flt,21,,
+,F086,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.21",,Imaging.Input.Off_Flt.21,"F086   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.21",Imaging.Input.Off_Flt,22,,
+,F087,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.22",,Imaging.Input.Off_Flt.22,"F087   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.22",Imaging.Input.Off_Flt,23,,
+,F088,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.23",,Imaging.Input.Off_Flt.23,"F088   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.23",Imaging.Input.Off_Flt,24,,
+,F089,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.24",,Imaging.Input.Off_Flt.24,"F089   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.24",Imaging.Input.Off_Flt,25,,
+,F090,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.25",,Imaging.Input.Off_Flt.25,"F090   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.25",Imaging.Input.Off_Flt,26,,
+,F091,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.26",,Imaging.Input.Off_Flt.26,"F091   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.26",Imaging.Input.Off_Flt,27,,
+,F092,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.27",,Imaging.Input.Off_Flt.27,"F092   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.27",Imaging.Input.Off_Flt,28,,
+,F093,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.28",,Imaging.Input.Off_Flt.28,"F093   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.28",Imaging.Input.Off_Flt,29,,
+,F094,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.29",,Imaging.Input.Off_Flt.29,"F094   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.29",Imaging.Input.Off_Flt,30,,
+,F095,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.30",,Imaging.Input.Off_Flt.30,"F095   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.30",Imaging.Input.Off_Flt,31,,
+,F096,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.31",,Imaging.Input.Off_Flt.31,"F096   Spare Fault Message
+PLC Tag: Imaging.Input.Off_Flt.31",Imaging.Input.Off_Flt,32,,
+,F097,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.00",,Imaging.Input.On_Flt.00,"F097   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.00",Imaging.Input.On_Flt,1,,
+,F098,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.01",,Imaging.Input.On_Flt.01,"F098   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.01",Imaging.Input.On_Flt,2,,
+,F099,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.02",,Imaging.Input.On_Flt.02,"F099   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.02",Imaging.Input.On_Flt,3,,
+,F100,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.03",,Imaging.Input.On_Flt.03,"F100   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.03",Imaging.Input.On_Flt,4,,
+,F101,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.04",,Imaging.Input.On_Flt.04,"F101   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.04",Imaging.Input.On_Flt,5,,
+,F102,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.05",,Imaging.Input.On_Flt.05,"F102   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.05",Imaging.Input.On_Flt,6,,
+,F103,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.06",,Imaging.Input.On_Flt.06,"F103   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.06",Imaging.Input.On_Flt,7,,
+,F104,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.07",,Imaging.Input.On_Flt.07,"F104   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.07",Imaging.Input.On_Flt,8,,
+,F105,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.08",,Imaging.Input.On_Flt.08,"F105   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.08",Imaging.Input.On_Flt,9,,
+,F106,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.09",,Imaging.Input.On_Flt.09,"F106   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.09",Imaging.Input.On_Flt,10,,
+,F107,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.10",,Imaging.Input.On_Flt.10,"F107   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.10",Imaging.Input.On_Flt,11,,
+,F108,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.11",,Imaging.Input.On_Flt.11,"F108   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.11",Imaging.Input.On_Flt,12,,
+,F109,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.12",,Imaging.Input.On_Flt.12,"F109   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.12",Imaging.Input.On_Flt,13,,
+,F110,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.13",,Imaging.Input.On_Flt.13,"F110   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.13",Imaging.Input.On_Flt,14,,
+,F111,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.14",,Imaging.Input.On_Flt.14,"F111   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.14",Imaging.Input.On_Flt,15,,
+,F112,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.15",,Imaging.Input.On_Flt.15,"F112   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.15",Imaging.Input.On_Flt,16,,
+,F113,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.16",,Imaging.Input.On_Flt.16,"F113   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.16",Imaging.Input.On_Flt,17,,
+,F114,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.17",,Imaging.Input.On_Flt.17,"F114   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.17",Imaging.Input.On_Flt,18,,
+,F115,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.18",,Imaging.Input.On_Flt.18,"F115   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.18",Imaging.Input.On_Flt,19,,
+,F116,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.19",,Imaging.Input.On_Flt.19,"F116   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.19",Imaging.Input.On_Flt,20,,
+,F117,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.20",,Imaging.Input.On_Flt.20,"F117   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.20",Imaging.Input.On_Flt,21,,
+,F118,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.21",,Imaging.Input.On_Flt.21,"F118   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.21",Imaging.Input.On_Flt,22,,
+,F119,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.22",,Imaging.Input.On_Flt.22,"F119   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.22",Imaging.Input.On_Flt,23,,
+,F120,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.23",,Imaging.Input.On_Flt.23,"F120   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.23",Imaging.Input.On_Flt,24,,
+,F121,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.24",,Imaging.Input.On_Flt.24,"F121   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.24",Imaging.Input.On_Flt,25,,
+,F122,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.25",,Imaging.Input.On_Flt.25,"F122   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.25",Imaging.Input.On_Flt,26,,
+,F123,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.26",,Imaging.Input.On_Flt.26,"F123   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.26",Imaging.Input.On_Flt,27,,
+,F124,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.27",,Imaging.Input.On_Flt.27,"F124   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.27",Imaging.Input.On_Flt,28,,
+,F125,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.28",,Imaging.Input.On_Flt.28,"F125   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.28",Imaging.Input.On_Flt,29,,
+,F126,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.29",,Imaging.Input.On_Flt.29,"F126   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.29",Imaging.Input.On_Flt,30,,
+,F127,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.30",,Imaging.Input.On_Flt.30,"F127   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.30",Imaging.Input.On_Flt,31,,
+,F128,,,,"Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.31",,Imaging.Input.On_Flt.31,"F128   Spare Fault Message
+PLC Tag: Imaging.Input.On_Flt.31",Imaging.Input.On_Flt,32,,
+"Cnvr
+
+Conveyors",,,,,,,,,,,,
+,F129,G1a-1,,IP Address: 10.0.1.8,"Conveyor 1 (Top)
+Should Not Be Running",The PLC is expecting the conveyor to be stopped but the VFD controller indicated that it is currently running.,Cnvr.Input.Off_Flt.0,"F129   Conveyor 1 (Top)
+Should Not Be Running
+Device G1a-1     IP Address: 10.0.1.8",Cnvr.Input.Off_Flt,1,,
+,F130,E1d-1,7308,,"Conveyor 1 (Top)
+Encoder Fault - No Pulses Detected","No encoder pulses detected within a specified time period. Check the following:
+- Ensure the encoder is not damaged and the shaft is spinning with the drive shaft.
+- Inspect the wiring for damage.
+- Circuit breaker for encoders is in the on position",Cnvr.Input.Off_Flt.1,"F130   Conveyor 1 (Top)
+Encoder Fault - No Pulses Detected
+Device E1d-1     Wire # 7308",Cnvr.Input.Off_Flt,2,,
+,F131,G1a-1,,IP Address: 10.0.1.8,"Conveyor 1 (Top) VFD
+Communication Error","The PLC is reporting a communication error with the VFD controller. Check the following:
+- Ensure the VFD is powered on and does not have any faults (F073 is ok)
+- Ethernet connection between the VFD and PLC
+- Check that there is no other devices on the network with the same IP address
+- Power cycle the VFD controller.",Cnvr.Input.Off_Flt.2,"F131   Conveyor 1 (Top) VFD
+Communication Error
+Device G1a-1     IP Address: 10.0.1.8",Cnvr.Input.Off_Flt,3,,
+,F132,G1a-1,,IP Address: 10.0.1.8,"Conveyor 1 (Top) VFD
+Faulted",VFD is reporting a fault to the PLC. Open the Automation Enclosure and check the fault code on the VFD's display. Consult the VFD manufacturer's manual for more details regarding the fault code.,Cnvr.Input.Off_Flt.3,"F132   Conveyor 1 (Top) VFD
+Faulted
+Device G1a-1     IP Address: 10.0.1.8",Cnvr.Input.Off_Flt,4,,
+,F133,G1a-2,,IP Address: 10.0.1.9,"Conveyor 2 (Middle)
+Should Not Be Running",The PLC is expecting the conveyor to be stopped but the VFD controller indicated that it is currently running.,Cnvr.Input.Off_Flt.4,"F133   Conveyor 2 (Middle)
+Should Not Be Running
+Device G1a-2     IP Address: 10.0.1.9",Cnvr.Input.Off_Flt,5,,
+,F134,E1d-2,7398,,"Conveyor 2 (Middle)
+Encoder Fault - No Pulses Detected","No encoder pulses detected within a specified time period. Check the following:
+- Ensure the encoder is not damaged and the shaft is spinning with the drive shaft.
+- Inspect the wiring for damage.
+- Circuit breaker for encoders is in the on position",Cnvr.Input.Off_Flt.5,"F134   Conveyor 2 (Middle)
+Encoder Fault - No Pulses Detected
+Device E1d-2     Wire # 7398",Cnvr.Input.Off_Flt,6,,
+,F135,G1a-2,,IP Address: 10.0.1.9,"Conveyor 2 (Middle) VFD
+Communication Error","The PLC is reporting a communication error with the VFD controller. Check the following:
+- Ensure the VFD is powered on and does not have any faults (F073 is ok)
+- Ethernet connection between the VFD and PLC
+- Check that there is no other devices on the network with the same IP address
+- Power cycle the VFD controller.",Cnvr.Input.Off_Flt.6,"F135   Conveyor 2 (Middle) VFD
+Communication Error
+Device G1a-2     IP Address: 10.0.1.9",Cnvr.Input.Off_Flt,7,,
+,F136,G1a-2,,IP Address: 10.0.1.9,"Conveyor 2 (Middle) VFD
+Faulted",VFD is reporting a fault to the PLC. Open the Automation Enclosure and check the fault code on the VFD's display. Consult the VFD manufacturer's manual for more details regarding the fault code.,Cnvr.Input.Off_Flt.7,"F136   Conveyor 2 (Middle) VFD
+Faulted
+Device G1a-2     IP Address: 10.0.1.9",Cnvr.Input.Off_Flt,8,,
+,F137,G1a-3,,IP Address: 10.0.1.10,"Conveyor 3 (Bottom)
+Should Not Be Running",The PLC is expecting the conveyor to be stopped but the VFD controller indicated that it is currently running.,Cnvr.Input.Off_Flt.8,"F137   Conveyor 3 (Bottom)
+Should Not Be Running
+Device G1a-3     IP Address: 10.0.1.10",Cnvr.Input.Off_Flt,9,,
+,F138,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.9","RESERVED
+Conveyor 3 Encoder",Cnvr.Input.Off_Flt.9,"F138   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.9",Cnvr.Input.Off_Flt,10,,
+,F139,G1a-3,,IP Address: 10.0.1.10,"Conveyor 3 (Bottom) VFD
+Communication Error","The PLC is reporting a communication error with the VFD controller. Check the following:
+- Ensure the VFD is powered on and does not have any faults (F073 is ok)
+- Ethernet connection between the VFD and PLC
+- Check that there is no other devices on the network with the same IP address
+- Power cycle the VFD controller.",Cnvr.Input.Off_Flt.10,"F139   Conveyor 3 (Bottom) VFD
+Communication Error
+Device G1a-3     IP Address: 10.0.1.10",Cnvr.Input.Off_Flt,11,,
+,F140,G1a-3,,IP Address: 10.0.1.10,"Conveyor 3 (Bottom) VFD
+Faulted",VFD is reporting a fault to the PLC. Open the Automation Enclosure and check the fault code on the VFD's display. Consult the VFD manufacturer's manual for more details regarding the fault code.,Cnvr.Input.Off_Flt.11,"F140   Conveyor 3 (Bottom) VFD
+Faulted
+Device G1a-3     IP Address: 10.0.1.10",Cnvr.Input.Off_Flt,12,,
+,F141,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.12",,Cnvr.Input.Off_Flt.12,"F141   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.12",Cnvr.Input.Off_Flt,13,,
+,F142,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.13",,Cnvr.Input.Off_Flt.13,"F142   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.13",Cnvr.Input.Off_Flt,14,,
+,F143,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.14",,Cnvr.Input.Off_Flt.14,"F143   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.14",Cnvr.Input.Off_Flt,15,,
+,F144,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.15",,Cnvr.Input.Off_Flt.15,"F144   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.15",Cnvr.Input.Off_Flt,16,,
+,F145,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.16",,Cnvr.Input.Off_Flt.16,"F145   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.16",Cnvr.Input.Off_Flt,17,,
+,F146,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.17",,Cnvr.Input.Off_Flt.17,"F146   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.17",Cnvr.Input.Off_Flt,18,,
+,F147,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.18",,Cnvr.Input.Off_Flt.18,"F147   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.18",Cnvr.Input.Off_Flt,19,,
+,F148,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.19",,Cnvr.Input.Off_Flt.19,"F148   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.19",Cnvr.Input.Off_Flt,20,,
+,F149,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.20",,Cnvr.Input.Off_Flt.20,"F149   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.20",Cnvr.Input.Off_Flt,21,,
+,F150,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.21",,Cnvr.Input.Off_Flt.21,"F150   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.21",Cnvr.Input.Off_Flt,22,,
+,F151,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.22",,Cnvr.Input.Off_Flt.22,"F151   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.22",Cnvr.Input.Off_Flt,23,,
+,F152,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.23",,Cnvr.Input.Off_Flt.23,"F152   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.23",Cnvr.Input.Off_Flt,24,,
+,F153,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.24",,Cnvr.Input.Off_Flt.24,"F153   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.24",Cnvr.Input.Off_Flt,25,,
+,F154,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.25",,Cnvr.Input.Off_Flt.25,"F154   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.25",Cnvr.Input.Off_Flt,26,,
+,F155,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.26",,Cnvr.Input.Off_Flt.26,"F155   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.26",Cnvr.Input.Off_Flt,27,,
+,F156,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.27",,Cnvr.Input.Off_Flt.27,"F156   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.27",Cnvr.Input.Off_Flt,28,,
+,F157,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.28",,Cnvr.Input.Off_Flt.28,"F157   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.28",Cnvr.Input.Off_Flt,29,,
+,F158,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.29",,Cnvr.Input.Off_Flt.29,"F158   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.29",Cnvr.Input.Off_Flt,30,,
+,F159,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.30",,Cnvr.Input.Off_Flt.30,"F159   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.30",Cnvr.Input.Off_Flt,31,,
+,F160,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.31",,Cnvr.Input.Off_Flt.31,"F160   Spare Fault Message
+PLC Tag: Cnvr.Input.Off_Flt.31",Cnvr.Input.Off_Flt,32,,
+,F161,G1a-1,,IP Address: 10.0.1.8,"Conveyor 1 (Top)
+Should Be Running",The PLC is expecting the conveyor to be running but the VFD controller indicated that it is not currently running.,Cnvr.Input.On_Flt.0,"F161   Conveyor 1 (Top)
+Should Be Running
+Device G1a-1     IP Address: 10.0.1.8",Cnvr.Input.On_Flt,1,,
+,F162,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.1",,Cnvr.Input.On_Flt.1,"F162   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.1",Cnvr.Input.On_Flt,2,,
+,F163,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.2",,Cnvr.Input.On_Flt.2,"F163   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.2",Cnvr.Input.On_Flt,3,,
+,F164,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.3",,Cnvr.Input.On_Flt.3,"F164   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.3",Cnvr.Input.On_Flt,4,,
+,F165,G1a-2,,IP Address: 10.0.1.9,"Conveyor 2 (Middle)
+Should Be Running",The PLC is expecting the conveyor to be running but the VFD controller indicated that it is not currently running.,Cnvr.Input.On_Flt.4,"F165   Conveyor 2 (Middle)
+Should Be Running
+Device G1a-2     IP Address: 10.0.1.9",Cnvr.Input.On_Flt,5,,
+,F166,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.5",,Cnvr.Input.On_Flt.5,"F166   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.5",Cnvr.Input.On_Flt,6,,
+,F167,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.6",,Cnvr.Input.On_Flt.6,"F167   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.6",Cnvr.Input.On_Flt,7,,
+,F168,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.7",,Cnvr.Input.On_Flt.7,"F168   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.7",Cnvr.Input.On_Flt,8,,
+,F169,G1a-3,,IP Address: 10.0.1.10,"Conveyor 3 (Bottom)
+Should Be Running",The PLC is expecting the conveyor to be running but the VFD controller indicated that it is not currently running.,Cnvr.Input.On_Flt.8,"F169   Conveyor 3 (Bottom)
+Should Be Running
+Device G1a-3     IP Address: 10.0.1.10",Cnvr.Input.On_Flt,9,,
+,F170,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.9",,Cnvr.Input.On_Flt.9,"F170   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.9",Cnvr.Input.On_Flt,10,,
+,F171,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.10",,Cnvr.Input.On_Flt.10,"F171   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.10",Cnvr.Input.On_Flt,11,,
+,F172,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.11",,Cnvr.Input.On_Flt.11,"F172   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.11",Cnvr.Input.On_Flt,12,,
+,F173,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.12",,Cnvr.Input.On_Flt.12,"F173   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.12",Cnvr.Input.On_Flt,13,,
+,F174,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.13",,Cnvr.Input.On_Flt.13,"F174   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.13",Cnvr.Input.On_Flt,14,,
+,F175,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.14",,Cnvr.Input.On_Flt.14,"F175   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.14",Cnvr.Input.On_Flt,15,,
+,F176,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.15",,Cnvr.Input.On_Flt.15,"F176   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.15",Cnvr.Input.On_Flt,16,,
+,F177,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.16",,Cnvr.Input.On_Flt.16,"F177   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.16",Cnvr.Input.On_Flt,17,,
+,F178,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.17",,Cnvr.Input.On_Flt.17,"F178   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.17",Cnvr.Input.On_Flt,18,,
+,F179,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.18",,Cnvr.Input.On_Flt.18,"F179   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.18",Cnvr.Input.On_Flt,19,,
+,F180,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.19",,Cnvr.Input.On_Flt.19,"F180   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.19",Cnvr.Input.On_Flt,20,,
+,F181,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.20",,Cnvr.Input.On_Flt.20,"F181   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.20",Cnvr.Input.On_Flt,21,,
+,F182,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.21",,Cnvr.Input.On_Flt.21,"F182   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.21",Cnvr.Input.On_Flt,22,,
+,F183,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.22",,Cnvr.Input.On_Flt.22,"F183   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.22",Cnvr.Input.On_Flt,23,,
+,F184,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.23",,Cnvr.Input.On_Flt.23,"F184   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.23",Cnvr.Input.On_Flt,24,,
+,F185,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.24",,Cnvr.Input.On_Flt.24,"F185   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.24",Cnvr.Input.On_Flt,25,,
+,F186,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.25",,Cnvr.Input.On_Flt.25,"F186   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.25",Cnvr.Input.On_Flt,26,,
+,F187,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.26",,Cnvr.Input.On_Flt.26,"F187   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.26",Cnvr.Input.On_Flt,27,,
+,F188,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.27",,Cnvr.Input.On_Flt.27,"F188   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.27",Cnvr.Input.On_Flt,28,,
+,F189,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.28",,Cnvr.Input.On_Flt.28,"F189   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.28",Cnvr.Input.On_Flt,29,,
+,F190,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.29",,Cnvr.Input.On_Flt.29,"F190   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.29",Cnvr.Input.On_Flt,30,,
+,F191,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.30",,Cnvr.Input.On_Flt.30,"F191   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.30",Cnvr.Input.On_Flt,31,,
+,F192,,,,"Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.31",,Cnvr.Input.On_Flt.31,"F192   Spare Fault Message
+PLC Tag: Cnvr.Input.On_Flt.31",Cnvr.Input.On_Flt,32,,
+"Cooling
+
+Cooling Systems 
+& Control",,,,,,,,   ,,,,
+,F193,V1a-1,10348,,"Main Enclosure
+Over Temperature","Enclosure temperature is above the specified threshold. Auto Mode will not be allowed until the temperature falls below the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.0,"F193   Main Enclosure
+Over Temperature
+Device V1a-1     Wire # 10348",Cooling.Input.Off_Flt,1,,
+,F194,V1a-1,10348,,"Main Enclosure
+Under Temperature","Enclosure temperature is below the specified threshold. Auto Mode will not be allowed until the temperature rises above the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.1,"F194   Main Enclosure
+Under Temperature
+Device V1a-1     Wire # 10348",Cooling.Input.Off_Flt,2,,
+,F195,V1a-1,10378,,"Main Enclosure
+Humidity Too High","Enclosure humidity is above the specified threshold. Auto Mode will not be allowed until the humidity falls below the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.2,"F195   Main Enclosure
+Humidity Too High
+Device V1a-1     Wire # 10378",Cooling.Input.Off_Flt,3,,
+,F196,V1a-1,10348,,"Main Enclosure
+Temperature Sensor Fault",The analog I/O card is indicating a fault with the sensor or wiring. Please check the wiring and replace the sensor if required.,Cooling.Input.Off_Flt.3,"F196   Main Enclosure
+Temperature Sensor Fault
+Device V1a-1     Wire # 10348",Cooling.Input.Off_Flt,4,,
+,F197,V1a-1,10378,,"Main Enclosure
+Humidity Sensor Fault",The analog I/O card is indicating a fault with the sensor or wiring. Please check the wiring and replace the sensor if required.,Cooling.Input.Off_Flt.4,"F197   Main Enclosure
+Humidity Sensor Fault
+Device V1a-1     Wire # 10378",Cooling.Input.Off_Flt,5,,
+,F198,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.5","Reserved 
+Additional temperature/humidity sensor ",Cooling.Input.Off_Flt.5,"F198   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.5",Cooling.Input.Off_Flt,6,,
+,F199,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.6","Reserved 
+Additional temperature/humidity sensor ",Cooling.Input.Off_Flt.6,"F199   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.6",Cooling.Input.Off_Flt,7,,
+,F200,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.7","Reserved 
+Additional temperature/humidity sensor ",Cooling.Input.Off_Flt.7,"F200   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.7",Cooling.Input.Off_Flt,8,,
+,F201,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.8","Reserved 
+Additional temperature/humidity sensor ",Cooling.Input.Off_Flt.8,"F201   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.8",Cooling.Input.Off_Flt,9,,
+,F202,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.9","Reserved 
+Additional temperature/humidity sensor ",Cooling.Input.Off_Flt.9,"F202   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.9",Cooling.Input.Off_Flt,10,,
+,F203,V1a-2,10418,,"DM 1 Enclosure
+Over Temperature","Enclosure temperature is above the specified threshold. Auto Mode will not be allowed until the temperature falls below the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.10,"F203   DM 1 Enclosure
+Over Temperature
+Device V1a-2     Wire # 10418",Cooling.Input.Off_Flt,11,,
+,F204,V1a-2,10418,,"DM 1 Enclosure
+Under Temperature","Enclosure temperature is below the specified threshold. Auto Mode will not be allowed until the temperature rises above the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.11,"F204   DM 1 Enclosure
+Under Temperature
+Device V1a-2     Wire # 10418",Cooling.Input.Off_Flt,12,,
+,F205,V1a-2,10448,,"DM 1 Enclosure
+Humidity Too High","Enclosure humidity is above the specified threshold. Auto Mode will not be allowed until the humidity falls below the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.12,"F205   DM 1 Enclosure
+Humidity Too High
+Device V1a-2     Wire # 10448",Cooling.Input.Off_Flt,13,,
+,F206,V1a-2,10418,,"DM 1 Enclosure
+Temperature Sensor Fault",The analog I/O card is indicating a fault with the sensor or wiring. Please check the wiring and replace the sensor if required.,Cooling.Input.Off_Flt.13,"F206   DM 1 Enclosure
+Temperature Sensor Fault
+Device V1a-2     Wire # 10418",Cooling.Input.Off_Flt,14,,
+,F207,V1a-2,10448,,"DM 1 Enclosure
+Humidity Sensor Fault",The analog I/O card is indicating a fault with the sensor or wiring. Please check the wiring and replace the sensor if required.,Cooling.Input.Off_Flt.14,"F207   DM 1 Enclosure
+Humidity Sensor Fault
+Device V1a-2     Wire # 10448",Cooling.Input.Off_Flt,15,,
+,F208,V1a-3,10478,,"DM 2 Enclosure
+Over Temperature","Enclosure temperature is above the specified threshold. Auto Mode will not be allowed until the temperature falls below the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.15,"F208   DM 2 Enclosure
+Over Temperature
+Device V1a-3     Wire # 10478",Cooling.Input.Off_Flt,16,,
+,F209,V1a-3,10478,,"DM 2 Enclosure
+Under Temperature","Enclosure temperature is below the specified threshold. Auto Mode will not be allowed until the temperature rises above the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.16,"F209   DM 2 Enclosure
+Under Temperature
+Device V1a-3     Wire # 10478",Cooling.Input.Off_Flt,17,,
+,F210,V1a-3,10508,,"DM 2 Enclosure
+Humidity Too High","Enclosure humidity is above the specified threshold. Auto Mode will not be allowed until the humidity falls below the threshold.
+Check the operation of all cooling fans and ensure enclosure doors are closed.",Cooling.Input.Off_Flt.17,"F210   DM 2 Enclosure
+Humidity Too High
+Device V1a-3     Wire # 10508",Cooling.Input.Off_Flt,18,,
+,F211,V1a-3,10478,,"DM 2 Enclosure
+Temperature Sensor Fault",The analog I/O card is indicating a fault with the sensor or wiring. Please check the wiring and replace the sensor if required.,Cooling.Input.Off_Flt.18,"F211   DM 2 Enclosure
+Temperature Sensor Fault
+Device V1a-3     Wire # 10478",Cooling.Input.Off_Flt,19,,
+,F212,V1a-3,10508,,"DM 2 Enclosure
+Humidity Sensor Fault",The analog I/O card is indicating a fault with the sensor or wiring. Please check the wiring and replace the sensor if required.,Cooling.Input.Off_Flt.19,"F212   DM 2 Enclosure
+Humidity Sensor Fault
+Device V1a-3     Wire # 10508",Cooling.Input.Off_Flt,20,,
+,F213,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.20","RESERVED
+For Chiller",Cooling.Input.Off_Flt.20,"F213   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.20",Cooling.Input.Off_Flt,21,,
+,F214,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.21",,Cooling.Input.Off_Flt.21,"F214   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.21",Cooling.Input.Off_Flt,22,,
+,F215,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.22",,Cooling.Input.Off_Flt.22,"F215   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.22",Cooling.Input.Off_Flt,23,,
+,F216,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.23",,Cooling.Input.Off_Flt.23,"F216   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.23",Cooling.Input.Off_Flt,24,,
+,F217,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.24",,Cooling.Input.Off_Flt.24,"F217   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.24",Cooling.Input.Off_Flt,25,,
+,F218,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.25",,Cooling.Input.Off_Flt.25,"F218   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.25",Cooling.Input.Off_Flt,26,,
+,F219,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.26",,Cooling.Input.Off_Flt.26,"F219   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.26",Cooling.Input.Off_Flt,27,,
+,F220,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.27",,Cooling.Input.Off_Flt.27,"F220   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.27",Cooling.Input.Off_Flt,28,,
+,F221,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.28",,Cooling.Input.Off_Flt.28,"F221   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.28",Cooling.Input.Off_Flt,29,,
+,F222,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.29",,Cooling.Input.Off_Flt.29,"F222   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.29",Cooling.Input.Off_Flt,30,,
+,F223,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.30",,Cooling.Input.Off_Flt.30,"F223   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.30",Cooling.Input.Off_Flt,31,,
+,F224,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.31",,Cooling.Input.Off_Flt.31,"F224   Spare Fault Message
+PLC Tag: Cooling.Input.Off_Flt.31",Cooling.Input.Off_Flt,32,,
+,F225,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.00",,Cooling.Input.On_Flt.00,"F225   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.00",Cooling.Input.On_Flt,1,,
+,F226,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.01",,Cooling.Input.On_Flt.01,"F226   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.01",Cooling.Input.On_Flt,2,,
+,F227,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.02",,Cooling.Input.On_Flt.02,"F227   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.02",Cooling.Input.On_Flt,3,,
+,F228,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.03",,Cooling.Input.On_Flt.03,"F228   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.03",Cooling.Input.On_Flt,4,,
+,F229,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.04",,Cooling.Input.On_Flt.04,"F229   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.04",Cooling.Input.On_Flt,5,,
+,F230,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.05",,Cooling.Input.On_Flt.05,"F230   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.05",Cooling.Input.On_Flt,6,,
+,F231,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.06",,Cooling.Input.On_Flt.06,"F231   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.06",Cooling.Input.On_Flt,7,,
+,F232,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.07",,Cooling.Input.On_Flt.07,"F232   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.07",Cooling.Input.On_Flt,8,,
+,F233,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.08",,Cooling.Input.On_Flt.08,"F233   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.08",Cooling.Input.On_Flt,9,,
+,F234,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.09",,Cooling.Input.On_Flt.09,"F234   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.09",Cooling.Input.On_Flt,10,,
+,F235,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.10",,Cooling.Input.On_Flt.10,"F235   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.10",Cooling.Input.On_Flt,11,,
+,F236,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.11",,Cooling.Input.On_Flt.11,"F236   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.11",Cooling.Input.On_Flt,12,,
+,F237,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.12",,Cooling.Input.On_Flt.12,"F237   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.12",Cooling.Input.On_Flt,13,,
+,F238,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.13",,Cooling.Input.On_Flt.13,"F238   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.13",Cooling.Input.On_Flt,14,,
+,F239,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.14",,Cooling.Input.On_Flt.14,"F239   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.14",Cooling.Input.On_Flt,15,,
+,F240,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.15",,Cooling.Input.On_Flt.15,"F240   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.15",Cooling.Input.On_Flt,16,,
+,F241,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.16",,Cooling.Input.On_Flt.16,"F241   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.16",Cooling.Input.On_Flt,17,,
+,F242,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.17",,Cooling.Input.On_Flt.17,"F242   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.17",Cooling.Input.On_Flt,18,,
+,F243,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.18",,Cooling.Input.On_Flt.18,"F243   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.18",Cooling.Input.On_Flt,19,,
+,F244,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.19",,Cooling.Input.On_Flt.19,"F244   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.19",Cooling.Input.On_Flt,20,,
+,F245,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.20","RESERVED
+For Chiller",Cooling.Input.On_Flt.20,"F245   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.20",Cooling.Input.On_Flt,21,,
+,F246,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.21",,Cooling.Input.On_Flt.21,"F246   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.21",Cooling.Input.On_Flt,22,,
+,F247,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.22",,Cooling.Input.On_Flt.22,"F247   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.22",Cooling.Input.On_Flt,23,,
+,F248,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.23",,Cooling.Input.On_Flt.23,"F248   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.23",Cooling.Input.On_Flt,24,,
+,F249,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.24",,Cooling.Input.On_Flt.24,"F249   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.24",Cooling.Input.On_Flt,25,,
+,F250,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.25",,Cooling.Input.On_Flt.25,"F250   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.25",Cooling.Input.On_Flt,26,,
+,F251,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.26",,Cooling.Input.On_Flt.26,"F251   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.26",Cooling.Input.On_Flt,27,,
+,F252,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.27",,Cooling.Input.On_Flt.27,"F252   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.27",Cooling.Input.On_Flt,28,,
+,F253,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.28",,Cooling.Input.On_Flt.28,"F253   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.28",Cooling.Input.On_Flt,29,,
+,F254,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.29",,Cooling.Input.On_Flt.29,"F254   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.29",Cooling.Input.On_Flt,30,,
+,F255,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.30",,Cooling.Input.On_Flt.30,"F255   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.30",Cooling.Input.On_Flt,31,,
+,F256,,,,"Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.31",,Cooling.Input.On_Flt.31,"F256   Spare Fault Message
+PLC Tag: Cooling.Input.On_Flt.31",Cooling.Input.On_Flt,32,,
+"Lamps
+
+Halogen Lamp
+& TDK Control",,,,,,,,   ,,,,
+,F257,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+Communication Error","PLC is unable to communicate with the TDK power supply.
+Check the following:
+- Ethernet connection between the TDK and PLC
+- Log out of the TDK web interface
+- Power cycle the TDK unit",Lamps.Input.Off_Flt.0,"F257   TDK Power Supply
+Communication Error
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,1,,
+,F258,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+AC Failure","The TDK unit is indicating a AC supply issue. This can occur during power cycling of the TDK unit. If the issue is not related to power cycling of the unit, support from TDK may be required.
+Consult the TDK user manual for details.",Lamps.Input.Off_Flt.1,"F258   TDK Power Supply
+AC Failure
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,2,,
+,F259,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+Over Temperature","The TDK is reporting the an over temperature alarm. Check cooling in and around the TDK and the enclosure.
+Consult the TDK user manual for details.",Lamps.Input.Off_Flt.2,"F259   TDK Power Supply
+Over Temperature
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,3,,
+,F260,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+Fold-Back Protection Fault","The TDK has reported a fault in the current Fold-Back protection system of the output power. The lights may be drawing more than the current limit that is set on the device. Ensure the current limit is set to 34.0A
+Consult the TDK user manual for details.",Lamps.Input.Off_Flt.3,"F260   TDK Power Supply
+Fold-Back Protection Fault
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,4,,
+,F261,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+Over-Voltage Protection Fault","The TDK has reported that the output voltage has exceeded the allowable limit. Check that the voltage limit is set to approximately 120.0V. Do not exceed 125V.
+Consult the TDK user manual for details.",Lamps.Input.Off_Flt.4,"F261   TDK Power Supply
+Over-Voltage Protection Fault
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,5,,
+,F262,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+Internal Error",The TDK has reported an internal error. Consult the TDK user manual for details.,Lamps.Input.Off_Flt.5,"F262   TDK Power Supply
+Internal Error
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,6,,
+,F263,T8,,IP Address: 10.0.1.13,"TDK Power Supply
+Output Current Too Low. One Or More Lights May Be Burnt Out.",The TDK's measured output current is below the threshold. This is an indicator that one or more lamps are not functioning properly and may need to be replaced.,Lamps.Input.Off_Flt.6,"F263   TDK Power Supply
+Output Current Too Low. One Or More Lights May Be Burnt Out.
+Device T8     IP Address: 10.0.1.13",Lamps.Input.Off_Flt,7,,
+,F264,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.7",,Lamps.Input.Off_Flt.7,"F264   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.7",Lamps.Input.Off_Flt,8,,
+,F265,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.8",,Lamps.Input.Off_Flt.8,"F265   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.8",Lamps.Input.Off_Flt,9,,
+,F266,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.9",,Lamps.Input.Off_Flt.9,"F266   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.9",Lamps.Input.Off_Flt,10,,
+,F267,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.10",,Lamps.Input.Off_Flt.10,"F267   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.10",Lamps.Input.Off_Flt,11,,
+,F268,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.11",,Lamps.Input.Off_Flt.11,"F268   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.11",Lamps.Input.Off_Flt,12,,
+,F269,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.12",,Lamps.Input.Off_Flt.12,"F269   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.12",Lamps.Input.Off_Flt,13,,
+,F270,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.13",,Lamps.Input.Off_Flt.13,"F270   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.13",Lamps.Input.Off_Flt,14,,
+,F271,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.14",,Lamps.Input.Off_Flt.14,"F271   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.14",Lamps.Input.Off_Flt,15,,
+,F272,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.15",,Lamps.Input.Off_Flt.15,"F272   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.15",Lamps.Input.Off_Flt,16,,
+,F273,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.16",,Lamps.Input.Off_Flt.16,"F273   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.16",Lamps.Input.Off_Flt,17,,
+,F274,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.17",,Lamps.Input.Off_Flt.17,"F274   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.17",Lamps.Input.Off_Flt,18,,
+,F275,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.18",,Lamps.Input.Off_Flt.18,"F275   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.18",Lamps.Input.Off_Flt,19,,
+,F276,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.19",,Lamps.Input.Off_Flt.19,"F276   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.19",Lamps.Input.Off_Flt,20,,
+,F277,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.20",,Lamps.Input.Off_Flt.20,"F277   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.20",Lamps.Input.Off_Flt,21,,
+,F278,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.21",,Lamps.Input.Off_Flt.21,"F278   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.21",Lamps.Input.Off_Flt,22,,
+,F279,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.22",,Lamps.Input.Off_Flt.22,"F279   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.22",Lamps.Input.Off_Flt,23,,
+,F280,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.23",,Lamps.Input.Off_Flt.23,"F280   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.23",Lamps.Input.Off_Flt,24,,
+,F281,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.24",,Lamps.Input.Off_Flt.24,"F281   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.24",Lamps.Input.Off_Flt,25,,
+,F282,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.25",,Lamps.Input.Off_Flt.25,"F282   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.25",Lamps.Input.Off_Flt,26,,
+,F283,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.26",,Lamps.Input.Off_Flt.26,"F283   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.26",Lamps.Input.Off_Flt,27,,
+,F284,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.27",,Lamps.Input.Off_Flt.27,"F284   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.27",Lamps.Input.Off_Flt,28,,
+,F285,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.28",,Lamps.Input.Off_Flt.28,"F285   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.28",Lamps.Input.Off_Flt,29,,
+,F286,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.29",,Lamps.Input.Off_Flt.29,"F286   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.29",Lamps.Input.Off_Flt,30,,
+,F287,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.30",,Lamps.Input.Off_Flt.30,"F287   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.30",Lamps.Input.Off_Flt,31,,
+,F288,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.31",,Lamps.Input.Off_Flt.31,"F288   Spare Fault Message
+PLC Tag: Lamps.Input.Off_Flt.31",Lamps.Input.Off_Flt,32,,
+,F289,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.00",,Lamps.Input.On_Flt.00,"F289   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.00",Lamps.Input.On_Flt,1,,
+,F290,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.01",,Lamps.Input.On_Flt.01,"F290   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.01",Lamps.Input.On_Flt,2,,
+,F291,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.02",,Lamps.Input.On_Flt.02,"F291   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.02",Lamps.Input.On_Flt,3,,
+,F292,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.03",,Lamps.Input.On_Flt.03,"F292   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.03",Lamps.Input.On_Flt,4,,
+,F293,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.04",,Lamps.Input.On_Flt.04,"F293   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.04",Lamps.Input.On_Flt,5,,
+,F294,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.05",,Lamps.Input.On_Flt.05,"F294   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.05",Lamps.Input.On_Flt,6,,
+,F295,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.06",,Lamps.Input.On_Flt.06,"F295   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.06",Lamps.Input.On_Flt,7,,
+,F296,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.07",,Lamps.Input.On_Flt.07,"F296   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.07",Lamps.Input.On_Flt,8,,
+,F297,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.08",,Lamps.Input.On_Flt.08,"F297   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.08",Lamps.Input.On_Flt,9,,
+,F298,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.09",,Lamps.Input.On_Flt.09,"F298   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.09",Lamps.Input.On_Flt,10,,
+,F299,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.10",,Lamps.Input.On_Flt.10,"F299   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.10",Lamps.Input.On_Flt,11,,
+,F300,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.11",,Lamps.Input.On_Flt.11,"F300   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.11",Lamps.Input.On_Flt,12,,
+,F301,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.12",,Lamps.Input.On_Flt.12,"F301   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.12",Lamps.Input.On_Flt,13,,
+,F302,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.13",,Lamps.Input.On_Flt.13,"F302   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.13",Lamps.Input.On_Flt,14,,
+,F303,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.14",,Lamps.Input.On_Flt.14,"F303   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.14",Lamps.Input.On_Flt,15,,
+,F304,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.15",,Lamps.Input.On_Flt.15,"F304   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.15",Lamps.Input.On_Flt,16,,
+,F305,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.16",,Lamps.Input.On_Flt.16,"F305   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.16",Lamps.Input.On_Flt,17,,
+,F306,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.17",,Lamps.Input.On_Flt.17,"F306   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.17",Lamps.Input.On_Flt,18,,
+,F307,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.18",,Lamps.Input.On_Flt.18,"F307   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.18",Lamps.Input.On_Flt,19,,
+,F308,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.19",,Lamps.Input.On_Flt.19,"F308   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.19",Lamps.Input.On_Flt,20,,
+,F309,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.20",,Lamps.Input.On_Flt.20,"F309   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.20",Lamps.Input.On_Flt,21,,
+,F310,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.21",,Lamps.Input.On_Flt.21,"F310   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.21",Lamps.Input.On_Flt,22,,
+,F311,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.22",,Lamps.Input.On_Flt.22,"F311   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.22",Lamps.Input.On_Flt,23,,
+,F312,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.23",,Lamps.Input.On_Flt.23,"F312   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.23",Lamps.Input.On_Flt,24,,
+,F313,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.24",,Lamps.Input.On_Flt.24,"F313   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.24",Lamps.Input.On_Flt,25,,
+,F314,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.25",,Lamps.Input.On_Flt.25,"F314   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.25",Lamps.Input.On_Flt,26,,
+,F315,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.26",,Lamps.Input.On_Flt.26,"F315   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.26",Lamps.Input.On_Flt,27,,
+,F316,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.27",,Lamps.Input.On_Flt.27,"F316   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.27",Lamps.Input.On_Flt,28,,
+,F317,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.28",,Lamps.Input.On_Flt.28,"F317   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.28",Lamps.Input.On_Flt,29,,
+,F318,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.29",,Lamps.Input.On_Flt.29,"F318   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.29",Lamps.Input.On_Flt,30,,
+,F319,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.30",,Lamps.Input.On_Flt.30,"F319   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.30",Lamps.Input.On_Flt,31,,
+,F320,,,,"Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.31",,Lamps.Input.On_Flt.31,"F320   Spare Fault Message
+PLC Tag: Lamps.Input.On_Flt.31",Lamps.Input.On_Flt,32,,
+"Pwr_Mon
+
+Power Systems Monitoring",,,,,,,,,,,,
+,F321,G6,1223,,Phase Monitor (Main 480VAC Power) Not Ok,480VAC Phase Monitoring Relay detected a problem with the main power supply. Check the main disconnect is in the On position.,Pwr_Mon.Input.Off_Flt.0,"F321   Phase Monitor (Main 480VAC Power) Not Ok
+Device G6     Wire # 1223",Pwr_Mon.Input.Off_Flt,1,,
+,F322,D4-2,3163,,"24VDC Power Distribution Not Ok
+Murr Power Module","The 24VDC power distribution indicates a problem. 
+This module is located in the main enclosure.
+This fault will occur if either DM Blower is turned off.
+Please check the power supply and wiring for short circuits.",Pwr_Mon.Input.Off_Flt.1,"F322   24VDC Power Distribution Not Ok
+Murr Power Module
+Device D4-2     Wire # 3163",Pwr_Mon.Input.Off_Flt,2,,
+,F323,N1,3032,,12VDC Power Supply Not Ok,"The 12VDC power distribution indicates a problem. 
+This module is located in the main enclosure.
+Please check the power supply and wiring for short circuits.
+
+This may also cause faults for the Spec and Vis camera breakers",Pwr_Mon.Input.Off_Flt.2,"F323   12VDC Power Supply Not Ok
+Device N1     Wire # 3032",Pwr_Mon.Input.Off_Flt,3,,
+,F324,G3a-4,2173,Breaker R4-1,Heat Exchanger Cooling Fans Circuit Breaker Not Ok,"The breaker is not in the On position. Check that the circuit breaker is in the On position and has not been tripped.
+Check for short circuits if the issue persists.",Pwr_Mon.Input.Off_Flt.3,"F324   Heat Exchanger Cooling Fans Circuit Breaker Not Ok
+Device G3a-4     Wire # 2173     Breaker R4-1",Pwr_Mon.Input.Off_Flt,4,,
+,F325,R3a-1,2133,Breaker R3,UPS Secondary Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.4,"F325   UPS Secondary Circuit Breaker Not Ok
+Device R3a-1     Wire # 2133     Breaker R3",Pwr_Mon.Input.Off_Flt,5,,
+,F326,G3a-1,1306,Breaker G3-2,Lamps Power Supply Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.5,"F326   Lamps Power Supply Circuit Breaker Not Ok
+Device G3a-1     Wire # 1306     Breaker G3-2",Pwr_Mon.Input.Off_Flt,6,,
+,F327,G3a-2,1486,Breaker G7,Transformer Primary Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.6,"F327   Transformer Primary Circuit Breaker Not Ok
+Device G3a-2     Wire # 1486     Breaker G7",Pwr_Mon.Input.Off_Flt,7,,
+,F328,G3a-3,1479,Breaker R1,Transformer Secondary Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.7,"F328   Transformer Secondary Circuit Breaker Not Ok
+Device G3a-3     Wire # 1479     Breaker R1",Pwr_Mon.Input.Off_Flt,8,,
+,F329,G3a-5,2307,Breaker R7-1,PC Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.8,"F329   PC Circuit Breaker Not Ok
+Device G3a-5     Wire # 2307     Breaker R7-1",Pwr_Mon.Input.Off_Flt,9,,
+,F330,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.9",,Pwr_Mon.Input.Off_Flt.9,"F330   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.9",Pwr_Mon.Input.Off_Flt,10,,
+,F331,G2b-1,1072,Breaker G2a-1,Conveyor 1 VFD Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.10,"F331   Conveyor 1 VFD Circuit Breaker Not Ok
+Device G2b-1     Wire # 1072     Breaker G2a-1",Pwr_Mon.Input.Off_Flt,11,,
+,F332,G2b-2,1132,Breaker G2a-2,Conveyor 2 VFD Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.11,"F332   Conveyor 2 VFD Circuit Breaker Not Ok
+Device G2b-2     Wire # 1132     Breaker G2a-2",Pwr_Mon.Input.Off_Flt,12,,
+,F333,G2b-3,1192,Breaker G2a-3,Conveyor 3 VFD Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.12,"F333   Conveyor 3 VFD Circuit Breaker Not Ok
+Device G2b-3     Wire # 1192     Breaker G2a-3",Pwr_Mon.Input.Off_Flt,13,,
+,F334,Q3-1,8082,Breaker Q2-1,Halogen Lamp # 1 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.13,"F334   Halogen Lamp # 1 Circuit Breaker Not Ok
+Device Q3-1     Wire # 8082     Breaker Q2-1",Pwr_Mon.Input.Off_Flt,14,,
+,F335,Q3-2,8092,Breaker Q2-2,Halogen Lamp # 2 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.14,"F335   Halogen Lamp # 2 Circuit Breaker Not Ok
+Device Q3-2     Wire # 8092     Breaker Q2-2",Pwr_Mon.Input.Off_Flt,15,,
+,F336,Q3-3,8102,Breaker Q2-3,Halogen Lamp # 3 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.15,"F336   Halogen Lamp # 3 Circuit Breaker Not Ok
+Device Q3-3     Wire # 8102     Breaker Q2-3",Pwr_Mon.Input.Off_Flt,16,,
+,F337,Q3-4,8112,Breaker Q2-4,Halogen Lamp # 4 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.16,"F337   Halogen Lamp # 4 Circuit Breaker Not Ok
+Device Q3-4     Wire # 8112     Breaker Q2-4",Pwr_Mon.Input.Off_Flt,17,,
+,F338,Q3-5,8122,Breaker Q2-5,Halogen Lamp # 5 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.17,"F338   Halogen Lamp # 5 Circuit Breaker Not Ok
+Device Q3-5     Wire # 8122     Breaker Q2-5",Pwr_Mon.Input.Off_Flt,18,,
+,F339,Q3-6,8132,Breaker Q2-6,Halogen Lamp # 6 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.18,"F339   Halogen Lamp # 6 Circuit Breaker Not Ok
+Device Q3-6     Wire # 8132     Breaker Q2-6",Pwr_Mon.Input.Off_Flt,19,,
+,F340,Q3-7,8142,Breaker Q2-7,Halogen Lamp # 7 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.19,"F340   Halogen Lamp # 7 Circuit Breaker Not Ok
+Device Q3-7     Wire # 8142     Breaker Q2-7",Pwr_Mon.Input.Off_Flt,20,,
+,F341,Q3-8,8152,Breaker Q2-8,Halogen Lamp # 8 Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.20,"F341   Halogen Lamp # 8 Circuit Breaker Not Ok
+Device Q3-8     Wire # 8152     Breaker Q2-8",Pwr_Mon.Input.Off_Flt,21,,
+,F342,D4a-1,8276,Breaker D4a-1 CH1,Spec 1 Camera Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.21,"F342   Spec 1 Camera Circuit Breaker Not Ok
+Device D4a-1     Wire # 8276     Breaker D4a-1 CH1",Pwr_Mon.Input.Off_Flt,22,,
+,F343,D4a-1,8286,Breaker D4a-1 CH2,Vis 1 Camera Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.22,"F343   Vis 1 Camera Circuit Breaker Not Ok
+Device D4a-1     Wire # 8286     Breaker D4a-1 CH2",Pwr_Mon.Input.Off_Flt,23,,
+,F344,D4a-2,8256,Breaker D4a-2 CH2,DM 1 Blower Fan Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.23,"F344   DM 1 Blower Fan Circuit Breaker Not Ok
+Device D4a-2     Wire # 8256     Breaker D4a-2 CH2",Pwr_Mon.Input.Off_Flt,24,,
+,F345,D4a-1,8296,Breaker D4a-1 CH3,Spec 2 Camera Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.24,"F345   Spec 2 Camera Circuit Breaker Not Ok
+Device D4a-1     Wire # 8296     Breaker D4a-1 CH3",Pwr_Mon.Input.Off_Flt,25,,
+,F346,D4a-1,8306,Breaker D4a-1 CH4,Vis 2 Camera Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.25,"F346   Vis 2 Camera Circuit Breaker Not Ok
+Device D4a-1     Wire # 8306     Breaker D4a-1 CH4",Pwr_Mon.Input.Off_Flt,26,,
+,F347,D4a-2,8266,Breaker D4a-2 CH2,DM 2 Blower Fan Circuit Breaker Not Ok,,Pwr_Mon.Input.Off_Flt.26,"F347   DM 2 Blower Fan Circuit Breaker Not Ok
+Device D4a-2     Wire # 8266     Breaker D4a-2 CH2",Pwr_Mon.Input.Off_Flt,27,,
+,F348,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.27",,Pwr_Mon.Input.Off_Flt.27,"F348   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.27",Pwr_Mon.Input.Off_Flt,28,,
+,F349,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.28",,Pwr_Mon.Input.Off_Flt.28,"F349   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.28",Pwr_Mon.Input.Off_Flt,29,,
+,F350,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.29",,Pwr_Mon.Input.Off_Flt.29,"F350   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.29",Pwr_Mon.Input.Off_Flt,30,,
+,F351,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.30",,Pwr_Mon.Input.Off_Flt.30,"F351   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.30",Pwr_Mon.Input.Off_Flt,31,,
+,F352,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.31",,Pwr_Mon.Input.Off_Flt.31,"F352   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.Off_Flt.31",Pwr_Mon.Input.Off_Flt,32,,
+,F353,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.00",,Pwr_Mon.Input.On_Flt.00,"F353   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.00",Pwr_Mon.Input.On_Flt,1,,
+,F354,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.01",,Pwr_Mon.Input.On_Flt.01,"F354   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.01",Pwr_Mon.Input.On_Flt,2,,
+,F355,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.02",,Pwr_Mon.Input.On_Flt.02,"F355   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.02",Pwr_Mon.Input.On_Flt,3,,
+,F356,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.03",,Pwr_Mon.Input.On_Flt.03,"F356   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.03",Pwr_Mon.Input.On_Flt,4,,
+,F357,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.04",,Pwr_Mon.Input.On_Flt.04,"F357   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.04",Pwr_Mon.Input.On_Flt,5,,
+,F358,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.05",,Pwr_Mon.Input.On_Flt.05,"F358   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.05",Pwr_Mon.Input.On_Flt,6,,
+,F359,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.06",,Pwr_Mon.Input.On_Flt.06,"F359   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.06",Pwr_Mon.Input.On_Flt,7,,
+,F360,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.07",,Pwr_Mon.Input.On_Flt.07,"F360   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.07",Pwr_Mon.Input.On_Flt,8,,
+,F361,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.08",,Pwr_Mon.Input.On_Flt.08,"F361   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.08",Pwr_Mon.Input.On_Flt,9,,
+,F362,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.09",,Pwr_Mon.Input.On_Flt.09,"F362   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.09",Pwr_Mon.Input.On_Flt,10,,
+,F363,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.10",,Pwr_Mon.Input.On_Flt.10,"F363   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.10",Pwr_Mon.Input.On_Flt,11,,
+,F364,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.11",,Pwr_Mon.Input.On_Flt.11,"F364   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.11",Pwr_Mon.Input.On_Flt,12,,
+,F365,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.12",,Pwr_Mon.Input.On_Flt.12,"F365   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.12",Pwr_Mon.Input.On_Flt,13,,
+,F366,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.13",,Pwr_Mon.Input.On_Flt.13,"F366   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.13",Pwr_Mon.Input.On_Flt,14,,
+,F367,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.14",,Pwr_Mon.Input.On_Flt.14,"F367   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.14",Pwr_Mon.Input.On_Flt,15,,
+,F368,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.15",,Pwr_Mon.Input.On_Flt.15,"F368   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.15",Pwr_Mon.Input.On_Flt,16,,
+,F369,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.16",,Pwr_Mon.Input.On_Flt.16,"F369   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.16",Pwr_Mon.Input.On_Flt,17,,
+,F370,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.17",,Pwr_Mon.Input.On_Flt.17,"F370   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.17",Pwr_Mon.Input.On_Flt,18,,
+,F371,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.18",,Pwr_Mon.Input.On_Flt.18,"F371   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.18",Pwr_Mon.Input.On_Flt,19,,
+,F372,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.19",,Pwr_Mon.Input.On_Flt.19,"F372   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.19",Pwr_Mon.Input.On_Flt,20,,
+,F373,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.20",,Pwr_Mon.Input.On_Flt.20,"F373   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.20",Pwr_Mon.Input.On_Flt,21,,
+,F374,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.21",,Pwr_Mon.Input.On_Flt.21,"F374   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.21",Pwr_Mon.Input.On_Flt,22,,
+,F375,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.22",,Pwr_Mon.Input.On_Flt.22,"F375   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.22",Pwr_Mon.Input.On_Flt,23,,
+,F376,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.23",,Pwr_Mon.Input.On_Flt.23,"F376   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.23",Pwr_Mon.Input.On_Flt,24,,
+,F377,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.24",,Pwr_Mon.Input.On_Flt.24,"F377   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.24",Pwr_Mon.Input.On_Flt,25,,
+,F378,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.25",,Pwr_Mon.Input.On_Flt.25,"F378   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.25",Pwr_Mon.Input.On_Flt,26,,
+,F379,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.26",,Pwr_Mon.Input.On_Flt.26,"F379   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.26",Pwr_Mon.Input.On_Flt,27,,
+,F380,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.27",,Pwr_Mon.Input.On_Flt.27,"F380   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.27",Pwr_Mon.Input.On_Flt,28,,
+,F381,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.28",,Pwr_Mon.Input.On_Flt.28,"F381   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.28",Pwr_Mon.Input.On_Flt,29,,
+,F382,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.29",,Pwr_Mon.Input.On_Flt.29,"F382   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.29",Pwr_Mon.Input.On_Flt,30,,
+,F383,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.30",,Pwr_Mon.Input.On_Flt.30,"F383   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.30",Pwr_Mon.Input.On_Flt,31,,
+,F384,,,,"Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.31",,Pwr_Mon.Input.On_Flt.31,"F384   Spare Fault Message
+PLC Tag: Pwr_Mon.Input.On_Flt.31",Pwr_Mon.Input.On_Flt,32,,
+"Soter
+
+Sorter Controls",,,,,,,,,,,,
+,F385,H14-5,8357,,"Conveyor 1 Sorter
+Should Not Be Retracted To Reject Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.Off_Flt.0,"F385   Conveyor 1 Sorter
+Should Not Be Retracted To Reject Position
+Device H14-5     Wire # 8357",Sorter.Input.Off_Flt,1,,
+,F386,H14-6,8367,,"Conveyor 1 Sorter
+Should Not Be Extended To Good Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.Off_Flt.1,"F386   Conveyor 1 Sorter
+Should Not Be Extended To Good Position
+Device H14-6     Wire # 8367",Sorter.Input.Off_Flt,2,,
+,F387,H14-9,8397,,"Conveyor 2 Sorter
+Should Not Be Retracted To Reject Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.Off_Flt.2,"F387   Conveyor 2 Sorter
+Should Not Be Retracted To Reject Position
+Device H14-9     Wire # 8397",Sorter.Input.Off_Flt,3,,
+,F388,H14-10,8407,,"Conveyor 2 Sorter
+Should Not Be Extended To Good Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.Off_Flt.3,"F388   Conveyor 2 Sorter
+Should Not Be Extended To Good Position
+Device H14-10     Wire # 8407",Sorter.Input.Off_Flt,4,,
+,F389,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.4",,Sorter.Input.Off_Flt.4,"F389   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.4",Sorter.Input.Off_Flt,5,,
+,F390,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.5",,Sorter.Input.Off_Flt.5,"F390   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.5",Sorter.Input.Off_Flt,6,,
+,F391,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.6",,Sorter.Input.Off_Flt.6,"F391   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.6",Sorter.Input.Off_Flt,7,,
+,F392,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.7",,Sorter.Input.Off_Flt.7,"F392   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.7",Sorter.Input.Off_Flt,8,,
+,F393,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.8",,Sorter.Input.Off_Flt.8,"F393   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.8",Sorter.Input.Off_Flt,9,,
+,F394,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.9",,Sorter.Input.Off_Flt.9,"F394   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.9",Sorter.Input.Off_Flt,10,,
+,F395,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.10",,Sorter.Input.Off_Flt.10,"F395   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.10",Sorter.Input.Off_Flt,11,,
+,F396,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.11",,Sorter.Input.Off_Flt.11,"F396   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.11",Sorter.Input.Off_Flt,12,,
+,F397,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.12",,Sorter.Input.Off_Flt.12,"F397   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.12",Sorter.Input.Off_Flt,13,,
+,F398,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.13",,Sorter.Input.Off_Flt.13,"F398   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.13",Sorter.Input.Off_Flt,14,,
+,F399,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.14",,Sorter.Input.Off_Flt.14,"F399   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.14",Sorter.Input.Off_Flt,15,,
+,F400,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.15",,Sorter.Input.Off_Flt.15,"F400   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.15",Sorter.Input.Off_Flt,16,,
+,F401,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.16",,Sorter.Input.Off_Flt.16,"F401   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.16",Sorter.Input.Off_Flt,17,,
+,F402,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.17",,Sorter.Input.Off_Flt.17,"F402   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.17",Sorter.Input.Off_Flt,18,,
+,F403,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.18",,Sorter.Input.Off_Flt.18,"F403   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.18",Sorter.Input.Off_Flt,19,,
+,F404,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.19",,Sorter.Input.Off_Flt.19,"F404   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.19",Sorter.Input.Off_Flt,20,,
+,F405,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.20",,Sorter.Input.Off_Flt.20,"F405   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.20",Sorter.Input.Off_Flt,21,,
+,F406,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.21",,Sorter.Input.Off_Flt.21,"F406   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.21",Sorter.Input.Off_Flt,22,,
+,F407,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.22",,Sorter.Input.Off_Flt.22,"F407   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.22",Sorter.Input.Off_Flt,23,,
+,F408,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.23",,Sorter.Input.Off_Flt.23,"F408   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.23",Sorter.Input.Off_Flt,24,,
+,F409,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.24",,Sorter.Input.Off_Flt.24,"F409   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.24",Sorter.Input.Off_Flt,25,,
+,F410,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.25",,Sorter.Input.Off_Flt.25,"F410   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.25",Sorter.Input.Off_Flt,26,,
+,F411,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.26",,Sorter.Input.Off_Flt.26,"F411   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.26",Sorter.Input.Off_Flt,27,,
+,F412,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.27",,Sorter.Input.Off_Flt.27,"F412   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.27",Sorter.Input.Off_Flt,28,,
+,F413,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.28",,Sorter.Input.Off_Flt.28,"F413   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.28",Sorter.Input.Off_Flt,29,,
+,F414,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.29",,Sorter.Input.Off_Flt.29,"F414   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.29",Sorter.Input.Off_Flt,30,,
+,F415,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.30",,Sorter.Input.Off_Flt.30,"F415   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.30",Sorter.Input.Off_Flt,31,,
+,F416,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.31",,Sorter.Input.Off_Flt.31,"F416   Spare Fault Message
+PLC Tag: Sorter.Input.Off_Flt.31",Sorter.Input.Off_Flt,32,,
+,F417,H14-5,8357,,"Conveyor 1 Sorter
+Should Be Retracted To Reject Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.On_Flt.0,"F417   Conveyor 1 Sorter
+Should Be Retracted To Reject Position
+Device H14-5     Wire # 8357",Sorter.Input.On_Flt,1,,
+,F418,H14-6,8367,,"Conveyor 1 Sorter
+Should Be Extended To Good Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.On_Flt.1,"F418   Conveyor 1 Sorter
+Should Be Extended To Good Position
+Device H14-6     Wire # 8367",Sorter.Input.On_Flt,2,,
+,F419,H14-9,8397,,"Conveyor 2 Sorter
+Should Be Retracted To Reject Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.On_Flt.2,"F419   Conveyor 2 Sorter
+Should Be Retracted To Reject Position
+Device H14-9     Wire # 8397",Sorter.Input.On_Flt,3,,
+,F420,H14-10,8407,,"Conveyor 2 Sorter
+Should Be Extended To Good Position","Cylinder sensor is reporting that the cylinder is in a position that it should not be in. Check that the cylinder has moved off/away from the sensor. If so, check the sensor for damage and replace as needed.",Sorter.Input.On_Flt.3,"F420   Conveyor 2 Sorter
+Should Be Extended To Good Position
+Device H14-10     Wire # 8407",Sorter.Input.On_Flt,4,,
+,F421,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.4",,Sorter.Input.On_Flt.4,"F421   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.4",Sorter.Input.On_Flt,5,,
+,F422,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.5",,Sorter.Input.On_Flt.5,"F422   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.5",Sorter.Input.On_Flt,6,,
+,F423,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.6",,Sorter.Input.On_Flt.6,"F423   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.6",Sorter.Input.On_Flt,7,,
+,F424,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.7",,Sorter.Input.On_Flt.7,"F424   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.7",Sorter.Input.On_Flt,8,,
+,F425,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.8",,Sorter.Input.On_Flt.8,"F425   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.8",Sorter.Input.On_Flt,9,,
+,F426,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.9",,Sorter.Input.On_Flt.9,"F426   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.9",Sorter.Input.On_Flt,10,,
+,F427,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.10",,Sorter.Input.On_Flt.10,"F427   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.10",Sorter.Input.On_Flt,11,,
+,F428,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.11",,Sorter.Input.On_Flt.11,"F428   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.11",Sorter.Input.On_Flt,12,,
+,F429,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.12",,Sorter.Input.On_Flt.12,"F429   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.12",Sorter.Input.On_Flt,13,,
+,F430,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.13",,Sorter.Input.On_Flt.13,"F430   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.13",Sorter.Input.On_Flt,14,,
+,F431,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.14",,Sorter.Input.On_Flt.14,"F431   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.14",Sorter.Input.On_Flt,15,,
+,F432,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.15",,Sorter.Input.On_Flt.15,"F432   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.15",Sorter.Input.On_Flt,16,,
+,F433,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.16",,Sorter.Input.On_Flt.16,"F433   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.16",Sorter.Input.On_Flt,17,,
+,F434,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.17",,Sorter.Input.On_Flt.17,"F434   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.17",Sorter.Input.On_Flt,18,,
+,F435,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.18",,Sorter.Input.On_Flt.18,"F435   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.18",Sorter.Input.On_Flt,19,,
+,F436,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.19",,Sorter.Input.On_Flt.19,"F436   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.19",Sorter.Input.On_Flt,20,,
+,F437,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.20",,Sorter.Input.On_Flt.20,"F437   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.20",Sorter.Input.On_Flt,21,,
+,F438,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.21",,Sorter.Input.On_Flt.21,"F438   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.21",Sorter.Input.On_Flt,22,,
+,F439,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.22",,Sorter.Input.On_Flt.22,"F439   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.22",Sorter.Input.On_Flt,23,,
+,F440,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.23",,Sorter.Input.On_Flt.23,"F440   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.23",Sorter.Input.On_Flt,24,,
+,F441,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.24",,Sorter.Input.On_Flt.24,"F441   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.24",Sorter.Input.On_Flt,25,,
+,F442,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.25",,Sorter.Input.On_Flt.25,"F442   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.25",Sorter.Input.On_Flt,26,,
+,F443,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.26",,Sorter.Input.On_Flt.26,"F443   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.26",Sorter.Input.On_Flt,27,,
+,F444,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.27",,Sorter.Input.On_Flt.27,"F444   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.27",Sorter.Input.On_Flt,28,,
+,F445,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.28",,Sorter.Input.On_Flt.28,"F445   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.28",Sorter.Input.On_Flt,29,,
+,F446,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.29",,Sorter.Input.On_Flt.29,"F446   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.29",Sorter.Input.On_Flt,30,,
+,F447,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.30",,Sorter.Input.On_Flt.30,"F447   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.30",Sorter.Input.On_Flt,31,,
+,F448,,,,"Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.31",,Sorter.Input.On_Flt.31,"F448   Spare Fault Message
+PLC Tag: Sorter.Input.On_Flt.31",Sorter.Input.On_Flt,32,,
+"Sys_Flts
+
+System &
+General Faults",,,,,,,,,,,,
+,F449,M1-10,7042,,External E-Stop Active,"An external system has an active E-Stop. Clear the external E-Stop condition to clear the fault.
+",Sys_Flts.Input.Off_Flt.0,"F449   External E-Stop Active
+Device M1-10     Wire # 7042",Sys_Flts.Input.Off_Flt,1,,
+,F450,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.1",,Sys_Flts.Input.Off_Flt.1,"F450   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.1",Sys_Flts.Input.Off_Flt,2,,
+,F451,W13-1,9012,,Remote Emergency Stop 1 Pressed,"The Emergency Stop button on E-Stop 1, on the leg with the main disconnect, is pressed. Pull to release the button before restarting the system.
+If the fault will not clear, inspect the button and wiring for damage.",Sys_Flts.Input.Off_Flt.2,"F451   Remote Emergency Stop 1 Pressed
+Device W13-1     Wire # 9012",Sys_Flts.Input.Off_Flt,3,,
+,F452,W13-2,9022,,Remote Emergency Stop 2 Pressed,"The Emergency Stop button on E-Stop 2, on the leg of the machine near the infeed and on the side of the main disconnect, is pressed. Pull to release the button before restarting the system.
+If the fault will not clear, inspect the button and wiring for damage.",Sys_Flts.Input.Off_Flt.3,"F452   Remote Emergency Stop 2 Pressed
+Device W13-2     Wire # 9022",Sys_Flts.Input.Off_Flt,4,,
+,F453,W13-3,9032,,Remote Emergency Stop 3 Pressed,"The Emergency Stop button on E-Stop 3, on the leg of the machine near the infeed, is pressed. Pull to release the button before restarting the system.
+If the fault will not clear, inspect the button and wiring for damage.",Sys_Flts.Input.Off_Flt.4,"F453   Remote Emergency Stop 3 Pressed
+Device W13-3     Wire # 9032",Sys_Flts.Input.Off_Flt,5,,
+,F454,W13-4,9042,,Remote Emergency Stop 4 Pressed,"The Emergency Stop button on E-Stop 4, on the leg of the machine near the outfeed, is pressed. Pull to release the button before restarting the system.
+If the fault will not clear, inspect the button and wiring for damage.",Sys_Flts.Input.Off_Flt.5,"F454   Remote Emergency Stop 4 Pressed
+Device W13-4     Wire # 9042",Sys_Flts.Input.Off_Flt,6,,
+,F455,A6,11002,,"Start Pushbutton
+Should Not Be Pressed",The pushbutton has been pressed for an abnormally long period of time. Inspect the button and wiring for damage.,Sys_Flts.Input.Off_Flt.6,"F455   Start Pushbutton
+Should Not Be Pressed
+Device A6     Wire # 11002",Sys_Flts.Input.Off_Flt,7,,
+,F456,A7,11012,,"Stop Pushbutton
+Should Not Be Pressed",The pushbutton has been pressed for an abnormally long period of time. Inspect the button and wiring for damage.,Sys_Flts.Input.Off_Flt.7,"F456   Stop Pushbutton
+Should Not Be Pressed
+Device A7     Wire # 11012",Sys_Flts.Input.Off_Flt,8,,
+,F457,A8,11022,,"Fault Reset Pushbutton
+Should Not Be Pressed",The pushbutton has been pressed for an abnormally long period of time. Inspect the button and wiring for damage.,Sys_Flts.Input.Off_Flt.8,"F457   Fault Reset Pushbutton
+Should Not Be Pressed
+Device A8     Wire # 11022",Sys_Flts.Input.Off_Flt,9,,
+,F458,H13,8327,,"Air Pressure
+Should Not Be Ok","The air pressure sensor is indicating that there is still air pressure in the system when their should not be.
+Check the following:
+- The electronic dump valve is operating properly and is not overridden
+- The safety system is operating properly
+- The pneumatics system has not been modified and an air source has not been added after the dump valve.",Sys_Flts.Input.Off_Flt.9,"F458   Air Pressure
+Should Not Be Ok
+Device H13     Wire # 8327",Sys_Flts.Input.Off_Flt,10,,
+,F459,L1-1,,IP Address: 10.0.1.11,"Main Enclosure Remote I/O
+Communication Error","The PLC is reporting a communication error with the remote I/O module located in the Main Enclosure. Check the following:
+- Ensure the remote I/O module is powered. Check the circuit breaker if it is not.
+- Ethernet connection between the remote I/O module and PLC
+- Check that there is no other devices on the network with the same IP address
+- Power cycle the remote I/O module.",Sys_Flts.Input.Off_Flt.10,"F459   Main Enclosure Remote I/O
+Communication Error
+Device L1-1     IP Address: 10.0.1.11",Sys_Flts.Input.Off_Flt,11,,
+,F460,L1-2,,IP Address: 10.0.1.12,"HMI Enclosure Remote I/O
+Communication Error","The PLC is reporting a communication error with the remote I/O module located in the Main Enclosure. Check the following:
+- Ensure the remote I/O module is powered. Check the circuit breaker if it is not.
+- Ethernet connection between the remote I/O module and PLC
+- Check that there is no other devices on the network with the same IP address
+- Power cycle the remote I/O module.",Sys_Flts.Input.Off_Flt.11,"F460   HMI Enclosure Remote I/O
+Communication Error
+Device L1-2     IP Address: 10.0.1.12",Sys_Flts.Input.Off_Flt,12,,
+,F461,W11-1,9052,,Guard Door 1 Opened,"Guard door indicates that it is not fully closed. The door is located on the same side as the main disconnect.
+Open and close the door to correct the issue.
+If the issue persists, check the alignment of the safety sensor and magnet adjust as required. Inspect the wiring and replace as required.
+Note: This signal does not reflect the safety circuit. So it is possible to have a safety circuit issue and not receive this fault.",Sys_Flts.Input.Off_Flt.12,"F461   Guard Door 1 Opened
+Device W11-1     Wire # 9052",Sys_Flts.Input.Off_Flt,13,,
+,F462,W11-2,9062,,Guard Door 2 Opened,"Guard door indicates that it is not fully closed. The door is located on the same side as the main disconnect.
+Open and close the door to correct the issue.
+If the issue persists, check the alignment of the safety sensor and magnet adjust as required. Inspect the wiring and replace as required.
+Note: This signal does not reflect the safety circuit. So it is possible to have a safety circuit issue and not receive this fault.",Sys_Flts.Input.Off_Flt.13,"F462   Guard Door 2 Opened
+Device W11-2     Wire # 9062",Sys_Flts.Input.Off_Flt,14,,
+,F463,W11-3,9072,,Guard Door 3 Opened,"Guard door indicates that it is not fully closed. The door is located on the opposite side of the main disconnect.
+Open and close the door to correct the issue.
+If the issue persists, check the alignment of the safety sensor and magnet adjust as required. Inspect the wiring and replace as required.
+Note: This signal does not reflect the safety circuit. So it is possible to have a safety circuit issue and not receive this fault.",Sys_Flts.Input.Off_Flt.14,"F463   Guard Door 3 Opened
+Device W11-3     Wire # 9072",Sys_Flts.Input.Off_Flt,15,,
+,F464,W11-4,9082,,Guard Door 4 Opened,"Guard door indicates that it is not fully closed. The door is located on the opposite side of the main disconnect.
+Open and close the door to correct the issue.
+If the issue persists, check the alignment of the safety sensor and magnet adjust as required. Inspect the wiring and replace as required.
+Note: This signal does not reflect the safety circuit. So it is possible to have a safety circuit issue and not receive this fault.",Sys_Flts.Input.Off_Flt.15,"F464   Guard Door 4 Opened
+Device W11-4     Wire # 9082",Sys_Flts.Input.Off_Flt,16,,
+,F465,,,,Reserved for Guard Door 5 Opened,,Sys_Flts.Input.Off_Flt.16,F465   Reserved for Guard Door 5 Opened,Sys_Flts.Input.Off_Flt,17,,
+,F466,,,,Reserved for Guard Door 6 Opened,,Sys_Flts.Input.Off_Flt.17,F466   Reserved for Guard Door 6 Opened,Sys_Flts.Input.Off_Flt,18,,
+,F467,,,,Reserved for Guard Door 7 Opened,,Sys_Flts.Input.Off_Flt.18,F467   Reserved for Guard Door 7 Opened,Sys_Flts.Input.Off_Flt,19,,
+,F468,W11-5,9093,,Sorter Guard Door 1 Opened,"Guard door indicates that it is not fully closed. The door is located at sorter 2 on middle/outfeed conveyor, on the same side as the main disconnect.
+Open and close the door to correct the issue.
+If the issue persists, check the alignment of the safety sensor and magnet adjust as required. Inspect the wiring and replace as required.
+Note: This signal does not reflect the safety circuit. So it is possible to have a safety circuit issue and not receive this fault.",Sys_Flts.Input.Off_Flt.19,"F468   Sorter Guard Door 1 Opened
+Device W11-5     Wire # 9093",Sys_Flts.Input.Off_Flt,20,,
+,F469,W11-6,9103,,Sorter Guard Door 2 Opened,"Guard door indicates that it is not fully closed. The door is located at sorter 2 on middle/outfeed conveyor, on the opposite side of the main disconnect.
+Open and close the door to correct the issue.
+If the issue persists, check the alignment of the safety sensor and magnet adjust as required. Inspect the wiring and replace as required.
+Note: This signal does not reflect the safety circuit. So it is possible to have a safety circuit issue and not receive this fault.",Sys_Flts.Input.Off_Flt.20,"F469   Sorter Guard Door 2 Opened
+Device W11-6     Wire # 9103",Sys_Flts.Input.Off_Flt,21,,
+,F470,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.21",,Sys_Flts.Input.Off_Flt.21,"F470   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.21",Sys_Flts.Input.Off_Flt,22,,
+,F471,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.22",,Sys_Flts.Input.Off_Flt.22,"F471   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.22",Sys_Flts.Input.Off_Flt,23,,
+,F472,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.23",,Sys_Flts.Input.Off_Flt.23,"F472   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.23",Sys_Flts.Input.Off_Flt,24,,
+,F473,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.24",,Sys_Flts.Input.Off_Flt.24,"F473   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.24",Sys_Flts.Input.Off_Flt,25,,
+,F474,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.25",,Sys_Flts.Input.Off_Flt.25,"F474   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.25",Sys_Flts.Input.Off_Flt,26,,
+,F475,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.26",,Sys_Flts.Input.Off_Flt.26,"F475   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.26",Sys_Flts.Input.Off_Flt,27,,
+,F476,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.27",,Sys_Flts.Input.Off_Flt.27,"F476   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.27",Sys_Flts.Input.Off_Flt,28,,
+,F477,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.28",,Sys_Flts.Input.Off_Flt.28,"F477   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.28",Sys_Flts.Input.Off_Flt,29,,
+,F478,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.29",,Sys_Flts.Input.Off_Flt.29,"F478   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.29",Sys_Flts.Input.Off_Flt,30,,
+,F479,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.30",,Sys_Flts.Input.Off_Flt.30,"F479   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.30",Sys_Flts.Input.Off_Flt,31,,
+,F480,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.31",,Sys_Flts.Input.Off_Flt.31,"F480   Spare Fault Message
+PLC Tag: Sys_Flts.Input.Off_Flt.31",Sys_Flts.Input.Off_Flt,32,,
+,F481,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.00",,Sys_Flts.Input.On_Flt.00,"F481   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.00",Sys_Flts.Input.On_Flt,1,,
+,F482,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.01",,Sys_Flts.Input.On_Flt.01,"F482   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.01",Sys_Flts.Input.On_Flt,2,,
+,F483,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.02",,Sys_Flts.Input.On_Flt.02,"F483   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.02",Sys_Flts.Input.On_Flt,3,,
+,F484,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.03",,Sys_Flts.Input.On_Flt.03,"F484   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.03",Sys_Flts.Input.On_Flt,4,,
+,F485,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.04",,Sys_Flts.Input.On_Flt.04,"F485   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.04",Sys_Flts.Input.On_Flt,5,,
+,F486,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.05",,Sys_Flts.Input.On_Flt.05,"F486   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.05",Sys_Flts.Input.On_Flt,6,,
+,F487,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.06",,Sys_Flts.Input.On_Flt.06,"F487   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.06",Sys_Flts.Input.On_Flt,7,,
+,F488,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.07",,Sys_Flts.Input.On_Flt.07,"F488   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.07",Sys_Flts.Input.On_Flt,8,,
+,F489,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.08",,Sys_Flts.Input.On_Flt.08,"F489   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.08",Sys_Flts.Input.On_Flt,9,,
+,F490,H13,8327,,"Air Pressure 
+Should  Be Ok","The system air pressure is outside of the allowable range. Check the following:
+- Dirty or clogged air filters on the air prep unit. Replace as required
+- Water in a filter on the air prep unit
+- Manual shut off valve is opened
+- Electronic dump valve is operating properly
+- Incoming air pressure is at 80 PSI or higher
+- Pressure regulator is set to 80 PSI
+- Leaks in the pneumatic system",Sys_Flts.Input.On_Flt.09,"F490   Air Pressure 
+Should  Be Ok
+Device H13     Wire # 8327",Sys_Flts.Input.On_Flt,10,,
+,F491,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.10",,Sys_Flts.Input.On_Flt.10,"F491   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.10",Sys_Flts.Input.On_Flt,11,,
+,F492,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.11",,Sys_Flts.Input.On_Flt.11,"F492   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.11",Sys_Flts.Input.On_Flt,12,,
+,F493,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.12",,Sys_Flts.Input.On_Flt.12,"F493   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.12",Sys_Flts.Input.On_Flt,13,,
+,F494,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.13",,Sys_Flts.Input.On_Flt.13,"F494   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.13",Sys_Flts.Input.On_Flt,14,,
+,F495,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.14",,Sys_Flts.Input.On_Flt.14,"F495   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.14",Sys_Flts.Input.On_Flt,15,,
+,F496,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.15",,Sys_Flts.Input.On_Flt.15,"F496   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.15",Sys_Flts.Input.On_Flt,16,,
+,F497,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.16",,Sys_Flts.Input.On_Flt.16,"F497   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.16",Sys_Flts.Input.On_Flt,17,,
+,F498,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.17",,Sys_Flts.Input.On_Flt.17,"F498   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.17",Sys_Flts.Input.On_Flt,18,,
+,F499,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.18",,Sys_Flts.Input.On_Flt.18,"F499   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.18",Sys_Flts.Input.On_Flt,19,,
+,F500,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.19",,Sys_Flts.Input.On_Flt.19,"F500   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.19",Sys_Flts.Input.On_Flt,20,,
+,F501,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.20",,Sys_Flts.Input.On_Flt.20,"F501   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.20",Sys_Flts.Input.On_Flt,21,,
+,F502,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.21",,Sys_Flts.Input.On_Flt.21,"F502   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.21",Sys_Flts.Input.On_Flt,22,,
+,F503,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.22",,Sys_Flts.Input.On_Flt.22,"F503   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.22",Sys_Flts.Input.On_Flt,23,,
+,F504,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.23",,Sys_Flts.Input.On_Flt.23,"F504   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.23",Sys_Flts.Input.On_Flt,24,,
+,F505,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.24",,Sys_Flts.Input.On_Flt.24,"F505   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.24",Sys_Flts.Input.On_Flt,25,,
+,F506,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.25",,Sys_Flts.Input.On_Flt.25,"F506   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.25",Sys_Flts.Input.On_Flt,26,,
+,F507,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.26",,Sys_Flts.Input.On_Flt.26,"F507   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.26",Sys_Flts.Input.On_Flt,27,,
+,F508,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.27",,Sys_Flts.Input.On_Flt.27,"F508   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.27",Sys_Flts.Input.On_Flt,28,,
+,F509,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.28",,Sys_Flts.Input.On_Flt.28,"F509   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.28",Sys_Flts.Input.On_Flt,29,,
+,F510,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.29",,Sys_Flts.Input.On_Flt.29,"F510   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.29",Sys_Flts.Input.On_Flt,30,,
+,F511,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.30",,Sys_Flts.Input.On_Flt.30,"F511   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.30",Sys_Flts.Input.On_Flt,31,,
+,F512,,,,"Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.31",,Sys_Flts.Input.On_Flt.31,"F512   Spare Fault Message
+PLC Tag: Sys_Flts.Input.On_Flt.31",Sys_Flts.Input.On_Flt,32,,
+"Lamps_XP_1
+
+XP PS #1 Faults
+",,,,,,,,,,,,
+,F513,T8-1,,,"Lamps PS #1 Communication Fault
+Check Connection Between Anybus Module(E40) And
+Lamp Power Supply.","PLC is unable to communicate with the XP power supply #1.
+Check the following:
+- Ethernet connection between the Anybus module and PLC
+- Serial communication between Anybus and XP power supply.
+- Power cycle the Anybus unit.
+- Power Cycle the XP power supply unit.",Lamps_XP_1.Input.Off_Flt.0,"F513   Lamps PS #1 Communication Fault
+Check Connection Between Anybus Module(E40) And
+Lamp Power Supply.
+Device T8-1",Lamps_XP_1.Input.Off_Flt,1,,
+,F514,T8-1,,,Lamps PS #1 AC Failure,"The XP power supply #1 unit is indicating a AC supply issue. This can occur during power cycling of the XP power supply unit. If the issue is not related to power cycling of the unit, support from XP power supply may be required.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.1,"F514   Lamps PS #1 AC Failure
+Device T8-1",Lamps_XP_1.Input.Off_Flt,2,,
+,F515,T8-1,,,Lamps PS #1 Over Temperature Fault,"The XP power supply #1 is reporting an over temperature alarm. Check cooling in and around the power supply and the enclosure.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.2,"F515   Lamps PS #1 Over Temperature Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,3,,
+,F516,T8-1,,,Lamps PS #1 Iout Over Current Fault,"The XP power supply #1 is reporting an over current fault. Check for short circuits to the output of power supply.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.3,"F516   Lamps PS #1 Iout Over Current Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,4,,
+,F517,T8-1,,,Lamps PS #1 Vout Over Voltage Fault,"The XP power supply #1 is reporting an over voltage fault. Output voltage has exceeded the allowable limit. Check that the voltage limit is set to approximately 120V. Do not exceed 125V.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.4,"F517   Lamps PS #1 Vout Over Voltage Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,5,,
+,F518,T8-1,,,Lamps PS #1 Unknown Fault,"The XP power supply #1 has an unknown fault. 
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.5,"F518   Lamps PS #1 Unknown Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,6,,
+,F519,T8-1,,,"Lamps PS #1 Output Current Too Low. 
+One Or More Lights May Be Burnt Out.","The XP power supply #1 measured output current is below the threshold. 
+This is an indicator that one or more lamps are not functioning properly and may need to be replaced.",Lamps_XP_1.Input.Off_Flt.6,"F519   Lamps PS #1 Output Current Too Low. 
+One Or More Lights May Be Burnt Out.
+Device T8-1",Lamps_XP_1.Input.Off_Flt,7,,
+,F520,T8-1,,,Lamps PS #1 PS Busy Fault,"The XP power supply #1 is reporting busy fault. Power supply was not able to respond.
+Power cycle the unit.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.7,"F520   Lamps PS #1 PS Busy Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,8,,
+,F521,T8-1,,,Lamps PS #1 Fans/Airflow Fault,"The XP power supply #1 is reporting an air flow or fans alarm. Check for obstructions in and around the power supply and the enclosure.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.8,"F521   Lamps PS #1 Fans/Airflow Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,9,,
+,F522,T8-1,,,Lamps PS #1 Input Voltage/Current/Power Fault,"The XP power supply #1 is reporting input voltage, input current or input power fault.
+Check input voltage supply. Power cycle the unit.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.9,"F522   Lamps PS #1 Input Voltage/Current/Power Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,10,,
+,F523,T8-1,,,Lamps PS #1 Output Voltage Fault,"The XP power supply #1 is reporting  voltage warning or fault. Check that the voltage limit is set to approximately 120V. Do not exceed 125V.
+Consult the XP power supply user manual for details.",Lamps_XP_1.Input.Off_Flt.10,"F523   Lamps PS #1 Output Voltage Fault
+Device T8-1",Lamps_XP_1.Input.Off_Flt,11,,
+,F524,E40,,IP Address: 10.0.1.13,"Lamps Power Supply Communication Module Error.
+Check Communication Between PLC And Anybus Module","PLC is unable to communicate with the Anybus communication module.
+Check the following:
+- Power to the Anybus module.
+- Ethernet connection between the Anybus module and PLC
+- Power cycle the Anybus unit.",Lamps_XP_1.Input.Off_Flt.11,"F524   Lamps Power Supply Communication Module Error.
+Check Communication Between PLC And Anybus Module
+Device E40     IP Address: 10.0.1.13",Lamps_XP_1.Input.Off_Flt,12,,
+,F525,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.12",,Lamps_XP_1.Input.Off_Flt.12,"F525   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.12",Lamps_XP_1.Input.Off_Flt,13,,
+,F526,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.13",,Lamps_XP_1.Input.Off_Flt.13,"F526   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.13",Lamps_XP_1.Input.Off_Flt,14,,
+,F527,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.14",,Lamps_XP_1.Input.Off_Flt.14,"F527   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.14",Lamps_XP_1.Input.Off_Flt,15,,
+,F528,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.15",,Lamps_XP_1.Input.Off_Flt.15,"F528   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.15",Lamps_XP_1.Input.Off_Flt,16,,
+,F529,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.16",,Lamps_XP_1.Input.Off_Flt.16,"F529   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.16",Lamps_XP_1.Input.Off_Flt,17,,
+,F530,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.17",,Lamps_XP_1.Input.Off_Flt.17,"F530   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.17",Lamps_XP_1.Input.Off_Flt,18,,
+,F531,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.18",,Lamps_XP_1.Input.Off_Flt.18,"F531   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.18",Lamps_XP_1.Input.Off_Flt,19,,
+,F532,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.19",,Lamps_XP_1.Input.Off_Flt.19,"F532   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.19",Lamps_XP_1.Input.Off_Flt,20,,
+,F533,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.20",,Lamps_XP_1.Input.Off_Flt.20,"F533   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.20",Lamps_XP_1.Input.Off_Flt,21,,
+,F534,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.21",,Lamps_XP_1.Input.Off_Flt.21,"F534   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.21",Lamps_XP_1.Input.Off_Flt,22,,
+,F535,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.22",,Lamps_XP_1.Input.Off_Flt.22,"F535   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.22",Lamps_XP_1.Input.Off_Flt,23,,
+,F536,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.23",,Lamps_XP_1.Input.Off_Flt.23,"F536   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.23",Lamps_XP_1.Input.Off_Flt,24,,
+,F537,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.24",,Lamps_XP_1.Input.Off_Flt.24,"F537   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.24",Lamps_XP_1.Input.Off_Flt,25,,
+,F538,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.25",,Lamps_XP_1.Input.Off_Flt.25,"F538   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.25",Lamps_XP_1.Input.Off_Flt,26,,
+,F539,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.26",,Lamps_XP_1.Input.Off_Flt.26,"F539   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.26",Lamps_XP_1.Input.Off_Flt,27,,
+,F540,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.27",,Lamps_XP_1.Input.Off_Flt.27,"F540   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.27",Lamps_XP_1.Input.Off_Flt,28,,
+,F541,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.28",,Lamps_XP_1.Input.Off_Flt.28,"F541   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.28",Lamps_XP_1.Input.Off_Flt,29,,
+,F542,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.29",,Lamps_XP_1.Input.Off_Flt.29,"F542   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.29",Lamps_XP_1.Input.Off_Flt,30,,
+,F543,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.30",,Lamps_XP_1.Input.Off_Flt.30,"F543   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.30",Lamps_XP_1.Input.Off_Flt,31,,
+,F544,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.31",,Lamps_XP_1.Input.Off_Flt.31,"F544   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.Off_Flt.31",Lamps_XP_1.Input.Off_Flt,32,,
+,F545,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.0",,Lamps_XP_1.Input.On_Flt.0,"F545   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.0",Lamps_XP_1.Input.On_Flt,1,,
+,F546,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.1",,Lamps_XP_1.Input.On_Flt.1,"F546   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.1",Lamps_XP_1.Input.On_Flt,2,,
+,F547,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.2",,Lamps_XP_1.Input.On_Flt.2,"F547   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.2",Lamps_XP_1.Input.On_Flt,3,,
+,F548,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.3",,Lamps_XP_1.Input.On_Flt.3,"F548   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.3",Lamps_XP_1.Input.On_Flt,4,,
+,F549,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.4",,Lamps_XP_1.Input.On_Flt.4,"F549   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.4",Lamps_XP_1.Input.On_Flt,5,,
+,F550,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.5",,Lamps_XP_1.Input.On_Flt.5,"F550   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.5",Lamps_XP_1.Input.On_Flt,6,,
+,F551,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.6",,Lamps_XP_1.Input.On_Flt.6,"F551   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.6",Lamps_XP_1.Input.On_Flt,7,,
+,F552,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.7",,Lamps_XP_1.Input.On_Flt.7,"F552   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.7",Lamps_XP_1.Input.On_Flt,8,,
+,F553,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.8",,Lamps_XP_1.Input.On_Flt.8,"F553   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.8",Lamps_XP_1.Input.On_Flt,9,,
+,F554,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.9",,Lamps_XP_1.Input.On_Flt.9,"F554   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.9",Lamps_XP_1.Input.On_Flt,10,,
+,F555,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.10",,Lamps_XP_1.Input.On_Flt.10,"F555   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.10",Lamps_XP_1.Input.On_Flt,11,,
+,F556,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.11",,Lamps_XP_1.Input.On_Flt.11,"F556   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.11",Lamps_XP_1.Input.On_Flt,12,,
+,F557,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.12",,Lamps_XP_1.Input.On_Flt.12,"F557   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.12",Lamps_XP_1.Input.On_Flt,13,,
+,F558,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.13",,Lamps_XP_1.Input.On_Flt.13,"F558   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.13",Lamps_XP_1.Input.On_Flt,14,,
+,F559,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.14",,Lamps_XP_1.Input.On_Flt.14,"F559   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.14",Lamps_XP_1.Input.On_Flt,15,,
+,F560,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.15",,Lamps_XP_1.Input.On_Flt.15,"F560   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.15",Lamps_XP_1.Input.On_Flt,16,,
+,F561,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.16",,Lamps_XP_1.Input.On_Flt.16,"F561   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.16",Lamps_XP_1.Input.On_Flt,17,,
+,F562,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.17",,Lamps_XP_1.Input.On_Flt.17,"F562   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.17",Lamps_XP_1.Input.On_Flt,18,,
+,F563,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.18",,Lamps_XP_1.Input.On_Flt.18,"F563   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.18",Lamps_XP_1.Input.On_Flt,19,,
+,F564,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.19",,Lamps_XP_1.Input.On_Flt.19,"F564   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.19",Lamps_XP_1.Input.On_Flt,20,,
+,F565,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.20",,Lamps_XP_1.Input.On_Flt.20,"F565   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.20",Lamps_XP_1.Input.On_Flt,21,,
+,F566,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.21",,Lamps_XP_1.Input.On_Flt.21,"F566   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.21",Lamps_XP_1.Input.On_Flt,22,,
+,F567,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.22",,Lamps_XP_1.Input.On_Flt.22,"F567   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.22",Lamps_XP_1.Input.On_Flt,23,,
+,F568,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.23",,Lamps_XP_1.Input.On_Flt.23,"F568   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.23",Lamps_XP_1.Input.On_Flt,24,,
+,F569,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.24",,Lamps_XP_1.Input.On_Flt.24,"F569   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.24",Lamps_XP_1.Input.On_Flt,25,,
+,F570,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.25",,Lamps_XP_1.Input.On_Flt.25,"F570   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.25",Lamps_XP_1.Input.On_Flt,26,,
+,F571,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.26",,Lamps_XP_1.Input.On_Flt.26,"F571   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.26",Lamps_XP_1.Input.On_Flt,27,,
+,F572,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.27",,Lamps_XP_1.Input.On_Flt.27,"F572   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.27",Lamps_XP_1.Input.On_Flt,28,,
+,F573,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.28",,Lamps_XP_1.Input.On_Flt.28,"F573   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.28",Lamps_XP_1.Input.On_Flt,29,,
+,F574,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.29",,Lamps_XP_1.Input.On_Flt.29,"F574   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.29",Lamps_XP_1.Input.On_Flt,30,,
+,F575,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.30",,Lamps_XP_1.Input.On_Flt.30,"F575   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.30",Lamps_XP_1.Input.On_Flt,31,,
+,F576,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.31",,Lamps_XP_1.Input.On_Flt.31,"F576   Spare Fault Message
+PLC Tag: Lamps_XP_1.Input.On_Flt.31",Lamps_XP_1.Input.On_Flt,32,,
+"Lamps_XP_2
+
+XP PS #2 Faults
+",,,,,,,,,,,,
+,F577,T8-2,,,"Lamps PS #2 Communication Fault.
+Check Connection Between Anybus Module(E40) And
+Lamp Power Supply.","PLC is unable to communicate with the XP power supply #2.
+Check the following:
+- Ethernet connection between the Anybus module and PLC
+- Serial communication between Anybus and XP power supply.
+- Power cycle the Anybus unit.
+- Power Cycle the XP power supply unit.",Lamps_XP_2.Input.Off_Flt.0,"F577   Lamps PS #2 Communication Fault.
+Check Connection Between Anybus Module(E40) And
+Lamp Power Supply.
+Device T8-2",Lamps_XP_2.Input.Off_Flt,1,,
+,F578,T8-2,,,Lamps PS #2 AC Failure,"The XP power supply #2 unit is indicating a AC supply issue. This can occur during power cycling of the XP power supply unit. If the issue is not related to power cycling of the unit, support from XP power supply may be required.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.1,"F578   Lamps PS #2 AC Failure
+Device T8-2",Lamps_XP_2.Input.Off_Flt,2,,
+,F579,T8-2,,,Lamps PS #2 Over Temperature Fault,"The XP power supply #2 is reporting an over temperature alarm. Check cooling in and around the power supply and the enclosure.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.2,"F579   Lamps PS #2 Over Temperature Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,3,,
+,F580,T8-2,,,Lamps PS #2 Iout Over Current Fault,"The XP power supply #2 is reporting an over current fault. Check for short circuits to the output of power supply.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.3,"F580   Lamps PS #2 Iout Over Current Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,4,,
+,F581,T8-2,,,Lamps PS #2 Vout Over Voltage Fault,"The XP power supply #2 is reporting an over voltage fault. Output voltage has exceeded the allowable limit. Check that the voltage limit is set to approximately 120V. Do not exceed 125V.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.4,"F581   Lamps PS #2 Vout Over Voltage Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,5,,
+,F582,T8-2,,,Lamps PS #2 Unknown Fault,"The XP power supply #2 has an unknown fault. 
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.5,"F582   Lamps PS #2 Unknown Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,6,,
+,F583,T8-2,,,"Lamps PS #2 Output Current Too Low. 
+One Or More Lights May Be Burnt Out.","The XP power supply #2 measured output current is below the threshold. 
+This is an indicator that one or more lamps are not functioning properly and may need to be replaced.",Lamps_XP_2.Input.Off_Flt.6,"F583   Lamps PS #2 Output Current Too Low. 
+One Or More Lights May Be Burnt Out.
+Device T8-2",Lamps_XP_2.Input.Off_Flt,7,,
+,F584,T8-2,,,Lamps PS #2 PS Busy Fault,"The XP power supply #2 is reporting busy fault. Power supply was not able to respond.
+Power cycle the unit.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.7,"F584   Lamps PS #2 PS Busy Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,8,,
+,F585,T8-2,,,Lamps PS #2 Fans/Airflow Fault,"The XP power supply #2 is reporting an air flow or fans alarm. Check for obstructions in and around the power supply and the enclosure.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.8,"F585   Lamps PS #2 Fans/Airflow Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,9,,
+,F586,T8-2,,,Lamps PS #2 Input Voltage/Current/Power Fault,"The XP power supply #2 is reporting input voltage, input current or input power fault.
+Check input voltage supply. Power cycle the unit.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.9,"F586   Lamps PS #2 Input Voltage/Current/Power Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,10,,
+,F587,T8-2,,,Lamps PS #2 Output Voltage Fault,"The XP power supply #2 is reporting voltage warning or fault. Check that the voltage limit is set to approximately 120V. Do not exceed 125V.
+Consult the XP power supply user manual for details.",Lamps_XP_2.Input.Off_Flt.10,"F587   Lamps PS #2 Output Voltage Fault
+Device T8-2",Lamps_XP_2.Input.Off_Flt,11,,
+,F588,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.11",,Lamps_XP_2.Input.Off_Flt.11,"F588   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.11",Lamps_XP_2.Input.Off_Flt,12,,
+,F589,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.12",,Lamps_XP_2.Input.Off_Flt.12,"F589   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.12",Lamps_XP_2.Input.Off_Flt,13,,
+,F590,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.13",,Lamps_XP_2.Input.Off_Flt.13,"F590   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.13",Lamps_XP_2.Input.Off_Flt,14,,
+,F591,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.14",,Lamps_XP_2.Input.Off_Flt.14,"F591   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.14",Lamps_XP_2.Input.Off_Flt,15,,
+,F592,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.15",,Lamps_XP_2.Input.Off_Flt.15,"F592   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.15",Lamps_XP_2.Input.Off_Flt,16,,
+,F593,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.16",,Lamps_XP_2.Input.Off_Flt.16,"F593   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.16",Lamps_XP_2.Input.Off_Flt,17,,
+,F594,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.17",,Lamps_XP_2.Input.Off_Flt.17,"F594   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.17",Lamps_XP_2.Input.Off_Flt,18,,
+,F595,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.18",,Lamps_XP_2.Input.Off_Flt.18,"F595   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.18",Lamps_XP_2.Input.Off_Flt,19,,
+,F596,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.19",,Lamps_XP_2.Input.Off_Flt.19,"F596   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.19",Lamps_XP_2.Input.Off_Flt,20,,
+,F597,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.20",,Lamps_XP_2.Input.Off_Flt.20,"F597   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.20",Lamps_XP_2.Input.Off_Flt,21,,
+,F598,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.21",,Lamps_XP_2.Input.Off_Flt.21,"F598   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.21",Lamps_XP_2.Input.Off_Flt,22,,
+,F599,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.22",,Lamps_XP_2.Input.Off_Flt.22,"F599   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.22",Lamps_XP_2.Input.Off_Flt,23,,
+,F600,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.23",,Lamps_XP_2.Input.Off_Flt.23,"F600   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.23",Lamps_XP_2.Input.Off_Flt,24,,
+,F601,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.24",,Lamps_XP_2.Input.Off_Flt.24,"F601   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.24",Lamps_XP_2.Input.Off_Flt,25,,
+,F602,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.25",,Lamps_XP_2.Input.Off_Flt.25,"F602   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.25",Lamps_XP_2.Input.Off_Flt,26,,
+,F603,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.26",,Lamps_XP_2.Input.Off_Flt.26,"F603   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.26",Lamps_XP_2.Input.Off_Flt,27,,
+,F604,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.27",,Lamps_XP_2.Input.Off_Flt.27,"F604   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.27",Lamps_XP_2.Input.Off_Flt,28,,
+,F605,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.28",,Lamps_XP_2.Input.Off_Flt.28,"F605   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.28",Lamps_XP_2.Input.Off_Flt,29,,
+,F606,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.29",,Lamps_XP_2.Input.Off_Flt.29,"F606   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.29",Lamps_XP_2.Input.Off_Flt,30,,
+,F607,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.30",,Lamps_XP_2.Input.Off_Flt.30,"F607   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.30",Lamps_XP_2.Input.Off_Flt,31,,
+,F608,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.31",,Lamps_XP_2.Input.Off_Flt.31,"F608   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.Off_Flt.31",Lamps_XP_2.Input.Off_Flt,32,,
+,F609,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.0",,Lamps_XP_2.Input.On_Flt.0,"F609   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.0",Lamps_XP_2.Input.On_Flt,1,,
+,F610,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.1",,Lamps_XP_2.Input.On_Flt.1,"F610   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.1",Lamps_XP_2.Input.On_Flt,2,,
+,F611,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.2",,Lamps_XP_2.Input.On_Flt.2,"F611   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.2",Lamps_XP_2.Input.On_Flt,3,,
+,F612,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.3",,Lamps_XP_2.Input.On_Flt.3,"F612   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.3",Lamps_XP_2.Input.On_Flt,4,,
+,F613,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.4",,Lamps_XP_2.Input.On_Flt.4,"F613   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.4",Lamps_XP_2.Input.On_Flt,5,,
+,F614,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.5",,Lamps_XP_2.Input.On_Flt.5,"F614   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.5",Lamps_XP_2.Input.On_Flt,6,,
+,F615,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.6",,Lamps_XP_2.Input.On_Flt.6,"F615   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.6",Lamps_XP_2.Input.On_Flt,7,,
+,F616,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.7",,Lamps_XP_2.Input.On_Flt.7,"F616   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.7",Lamps_XP_2.Input.On_Flt,8,,
+,F617,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.8",,Lamps_XP_2.Input.On_Flt.8,"F617   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.8",Lamps_XP_2.Input.On_Flt,9,,
+,F618,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.9",,Lamps_XP_2.Input.On_Flt.9,"F618   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.9",Lamps_XP_2.Input.On_Flt,10,,
+,F619,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.10",,Lamps_XP_2.Input.On_Flt.10,"F619   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.10",Lamps_XP_2.Input.On_Flt,11,,
+,F620,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.11",,Lamps_XP_2.Input.On_Flt.11,"F620   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.11",Lamps_XP_2.Input.On_Flt,12,,
+,F621,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.12",,Lamps_XP_2.Input.On_Flt.12,"F621   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.12",Lamps_XP_2.Input.On_Flt,13,,
+,F622,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.13",,Lamps_XP_2.Input.On_Flt.13,"F622   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.13",Lamps_XP_2.Input.On_Flt,14,,
+,F623,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.14",,Lamps_XP_2.Input.On_Flt.14,"F623   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.14",Lamps_XP_2.Input.On_Flt,15,,
+,F624,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.15",,Lamps_XP_2.Input.On_Flt.15,"F624   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.15",Lamps_XP_2.Input.On_Flt,16,,
+,F625,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.16",,Lamps_XP_2.Input.On_Flt.16,"F625   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.16",Lamps_XP_2.Input.On_Flt,17,,
+,F626,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.17",,Lamps_XP_2.Input.On_Flt.17,"F626   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.17",Lamps_XP_2.Input.On_Flt,18,,
+,F627,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.18",,Lamps_XP_2.Input.On_Flt.18,"F627   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.18",Lamps_XP_2.Input.On_Flt,19,,
+,F628,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.19",,Lamps_XP_2.Input.On_Flt.19,"F628   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.19",Lamps_XP_2.Input.On_Flt,20,,
+,F629,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.20",,Lamps_XP_2.Input.On_Flt.20,"F629   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.20",Lamps_XP_2.Input.On_Flt,21,,
+,F630,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.21",,Lamps_XP_2.Input.On_Flt.21,"F630   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.21",Lamps_XP_2.Input.On_Flt,22,,
+,F631,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.22",,Lamps_XP_2.Input.On_Flt.22,"F631   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.22",Lamps_XP_2.Input.On_Flt,23,,
+,F632,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.23",,Lamps_XP_2.Input.On_Flt.23,"F632   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.23",Lamps_XP_2.Input.On_Flt,24,,
+,F633,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.24",,Lamps_XP_2.Input.On_Flt.24,"F633   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.24",Lamps_XP_2.Input.On_Flt,25,,
+,F634,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.25",,Lamps_XP_2.Input.On_Flt.25,"F634   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.25",Lamps_XP_2.Input.On_Flt,26,,
+,F635,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.26",,Lamps_XP_2.Input.On_Flt.26,"F635   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.26",Lamps_XP_2.Input.On_Flt,27,,
+,F636,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.27",,Lamps_XP_2.Input.On_Flt.27,"F636   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.27",Lamps_XP_2.Input.On_Flt,28,,
+,F637,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.28",,Lamps_XP_2.Input.On_Flt.28,"F637   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.28",Lamps_XP_2.Input.On_Flt,29,,
+,F638,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.29",,Lamps_XP_2.Input.On_Flt.29,"F638   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.29",Lamps_XP_2.Input.On_Flt,30,,
+,F639,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.30",,Lamps_XP_2.Input.On_Flt.30,"F639   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.30",Lamps_XP_2.Input.On_Flt,31,,
+,F640,,,,"Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.31",,Lamps_XP_2.Input.On_Flt.31,"F640   Spare Fault Message
+PLC Tag: Lamps_XP_2.Input.On_Flt.31",Lamps_XP_2.Input.On_Flt,32,,
